@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: captura
@@ -32,7 +33,7 @@ jobs:
 
       - name: Commit do que mudou
         run: |
-          git add normas tabelas
+          git add normas tabelas novidades
           if git diff --cached --quiet; then
             echo "Nada mudou nas fontes."
             exit 0
@@ -41,6 +42,23 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -F .cache/resumo.txt
           git push
+
+      # Lei complementar tributária nova, fora do catálogo: vira issue, e alguém
+      # decide se ela entra no normas.json. O título leva o número, e é por ele
+      # que um aviso já aberto (ou fechado) não se repete.
+      - name: Avisar leis complementares novas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          jq -c '.[]' .cache/novas-normas.json | while read -r lei; do
+            numero=$(jq -r '.numero' <<<"$lei")
+            ano=$(jq -r '.data[0:4]' <<<"$lei")
+            titulo="Nova lei complementar tributária: LC ${numero}/${ano}"
+            if gh issue list --state all --search "\"$titulo\" in:title" --json number --jq 'length' | grep -qv '^0$'; then
+              continue
+            fi
+            gh issue create --title "$titulo" --body "$(jq -r '"Publicada em \(.data).\n\n> \(.ementa)\n\nTexto: \(.url)\n\nPara acompanhar, inclua uma entrada em `normas.json`."' <<<"$lei")"
+          done
 
       - name: Resumo
         if: always()

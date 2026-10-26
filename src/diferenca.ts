@@ -15,15 +15,19 @@ export function diferencaDeTexto(antes: string | null, depois: string) {
   };
 }
 
-/** Linhas de CSV indexadas pela primeira coluna (o código). */
-function porCodigo(texto: string | null): Map<string, string> {
+/**
+ * Linhas de CSV indexadas pelas primeiras colunas: o código, ou código +
+ * NCM quando o mesmo código se repete (CEST, TIPI com exceção). As colunas
+ * de chave nunca têm vírgula, então dividir a linha por vírgula basta.
+ */
+function porCodigo(texto: string | null, colunasDeChave: number): Map<string, string> {
   const linhas = (texto ?? "").split("\n").slice(1).filter(Boolean);
-  return new Map(linhas.map((l) => [l.split(",")[0], l]));
+  return new Map(linhas.map((l) => [l.split(",").slice(0, colunasDeChave).join(","), l]));
 }
 
-export function diferencaDeTabela(antes: string | null, depois: string) {
-  const a = porCodigo(antes);
-  const d = porCodigo(depois);
+export function diferencaDeTabela(antes: string | null, depois: string, colunasDeChave = 1) {
+  const a = porCodigo(antes, colunasDeChave);
+  const d = porCodigo(depois, colunasDeChave);
   let novos = 0;
   let alterados = 0;
   for (const [codigo, linha] of d) {

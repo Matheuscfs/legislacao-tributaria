@@ -1,6 +1,29 @@
 [
   {
+    "id": "ec-132-2023",
+    "nome": "EC 132/2023",
+    "esfera": "federal",
+    "tipo": "Emenda Constitucional",
+    "numero": "132",
+    "data": "2023-12-20",
+    "assunto": "Altera o Sistema Tributário Nacional (reforma tributária do consumo na Constituição)",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "urn": "urn:lex:br:federal:emenda.constitucional:2023-12-20;132"
+  },
+  {
+    "id": "lei-5172-1966",
+    "nome": "CTN",
+    "esfera": "federal",
+    "tipo": "Lei",
+    "numero": "5.172",
+    "data": "1966-10-25",
+    "assunto": "Código Tributário Nacional",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+    "urn": "urn:lex:br:federal:lei:1966-10-25;5172"
+  },
+  {
     "id": "lc-123-2006",
+    "nome": "LC 123/2006",
     "esfera": "federal",
     "tipo": "Lei Complementar",
     "numero": "123",
@@ -11,6 +34,7 @@
   },
   {
     "id": "lc-214-2025",
+    "nome": "LC 214/2025",
     "esfera": "federal",
     "tipo": "Lei Complementar",
     "numero": "214",
@@ -18,5 +42,27 @@
     "assunto": "IBS, CBS e Imposto Seletivo (reforma tributária do consumo)",
     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
     "urn": "urn:lex:br:federal:lei.complementar:2025-01-16;214"
+  },
+  {
+    "id": "lc-227-2026",
+    "nome": "LC 227/2026",
+    "esfera": "federal",
+    "tipo": "Lei Complementar",
+    "numero": "227",
+    "data": "2026-01-13",
+    "assunto": "Comitê Gestor do IBS (CGIBS), processo administrativo tributário do IBS e distribuição da arrecadação",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "urn": "urn:lex:br:federal:lei.complementar:2026-01-13;227"
+  },
+  {
+    "id": "decreto-12955-2026",
+    "nome": "Decreto 12.955/2026",
+    "esfera": "federal",
+    "tipo": "Decreto",
+    "numero": "12.955",
+    "data": "2026-04-29",
+    "assunto": "Regulamento da Contribuição Social sobre Bens e Serviços (CBS)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm",
+    "urn": "urn:lex:br:federal:decreto:2026-04-29;12955"
   }
 ]

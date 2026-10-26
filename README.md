@@ -9,15 +9,30 @@ Tudo aqui é público: texto de lei não tem direito autoral no Brasil (Lei 9.61
 
 ## O que tem aqui
 
+**Normas** (texto compilado, em [`normas/federal/`](normas/federal)):
+
+| Norma | Artigos | O que é |
+|---|---:|---|
+| [EC 132/2023](normas/federal/ec-132-2023/texto.md) | 25 | A reforma tributária do consumo na Constituição |
+| [CTN](normas/federal/lei-5172-1966/texto.md) (Lei 5.172/1966) | 229 | Código Tributário Nacional |
+| [LC 123/2006](normas/federal/lc-123-2006/texto.md) | 158 | Simples Nacional |
+| [LC 214/2025](normas/federal/lc-214-2025/texto.md) | 601 | IBS, CBS e Imposto Seletivo, com os anexos de redução |
+| [LC 227/2026](normas/federal/lc-227-2026/texto.md) | 210 | Comitê Gestor do IBS, processo administrativo e distribuição do IBS |
+| [Decreto 12.955/2026](normas/federal/decreto-12955-2026/texto.md) | 621 | Regulamento da CBS |
+
+**Tabelas de produto:**
+
 | Arquivo | O que é | Fonte |
 |---|---|---|
-| [`normas/federal/lc-123-2006/texto.md`](normas/federal/lc-123-2006/texto.md) | LC 123/2006 (Simples Nacional), texto compilado: 158 artigos | Planalto |
-| [`normas/federal/lc-214-2025/texto.md`](normas/federal/lc-214-2025/texto.md) | LC 214/2025 (IBS, CBS e Imposto Seletivo), texto compilado: 601 artigos e os anexos de redução | Planalto |
 | [`tabelas/ncm/ncm.csv`](tabelas/ncm/ncm.csv) | NCM vigente: 15.157 códigos, com vigência e ato legal de cada um | Portal Único Siscomex |
+| [`tabelas/tipi/tipi.csv`](tabelas/tipi/tipi.csv) | TIPI: alíquota de IPI por NCM e exceção (15.563 linhas) | Receita Federal |
+| [`tabelas/cest/cest.csv`](tabelas/cest/cest.csv) | CEST: 1.054 códigos da substituição tributária do ICMS, com as NCM de cada um, e os [25 segmentos](tabelas/cest/segmentos.csv) | CONFAZ (Convênio ICMS 142/2018) |
 | [`tabelas/ibs-cbs/cst.csv`](tabelas/ibs-cbs/cst.csv) | CST do IBS e da CBS | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-tributaria.csv`](tabelas/ibs-cbs/classificacao-tributaria.csv) | Os 173 códigos de classificação tributária (cClassTrib), com redução de IBS e CBS, documentos em que valem e o artigo da lei | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-por-ncm-nbs.csv`](tabelas/ibs-cbs/classificacao-por-ncm-nbs.csv) | Qual cClassTrib vale para cada NCM ou NBS (4.728 vínculos), com o item do anexo, condição e exceção | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-tributaria.json`](tabelas/ibs-cbs/classificacao-tributaria.json) | A tabela completa, com todos os campos do portal | SVRS (Conformidade Fácil) |
+
+**Novidades:** [`novidades/leis-complementares.csv`](novidades/leis-complementares.csv) lista todas as leis complementares federais, com a ementa e duas marcas: se a ementa é tributária e se a lei já está no catálogo.
 
 Cada pasta tem um `metadados.json` com a fonte, os totais e a data da última captura que mudou alguma coisa.
 
@@ -29,9 +44,10 @@ Com a reforma, quem emite nota precisa saber, para cada produto, se ele tem alí
 ncm.csv                         1006.30      "- Arroz semibranqueado ou branqueado…"
 classificacao-por-ncm-nbs.csv   200003  NCM  10063021  "Arroz das subposições 1006.20 e 1006.30…"
 classificacao-tributaria.csv    200003  CST 200  redução IBS 100%  redução CBS 100%  → LC 214, Anexo I
+tipi.csv                        1006.30.21   "Polido ou brunido"  IPI: NT
 ```
 
-Ou seja: arroz da NCM 1006.30.21 entra no cClassTrib 200003 (cesta básica), com redução de 100% de IBS e CBS, pelo Anexo I da LC 214.
+Ou seja: arroz da NCM 1006.30.21 entra no cClassTrib 200003 (cesta básica), com redução de 100% de IBS e CBS pelo Anexo I da LC 214, e não é tributado pelo IPI. Para produto sujeito a substituição tributária do ICMS, o `cest.csv` dá o CEST a partir da mesma NCM.
 
 ## Como o texto da lei fica no arquivo
 
@@ -57,6 +73,12 @@ O workflow [`capturar.yml`](.github/workflows/capturar.yml) roda todo dia às 6h
 
 Nenhum arquivo de dado guarda a data da captura no corpo. Se guardasse, haveria um commit por dia sem a lei ter mudado.
 
+### Leis novas
+
+A mesma captura lê o [quadro de leis complementares](https://www.planalto.gov.br/ccivil_03/leis/lcp/quadro_lcp.htm) do Planalto. É por lei complementar que mudam o Simples Nacional, o CTN e a reforma do consumo: só entre agosto e outubro de 2026 saíram a LC 235, a LC 236 (altera o CTN), a LC 237 e a LC 238 (altera o limite do Simples). Quando aparece uma lei complementar nova com ementa tributária que ainda não está no catálogo, o workflow abre uma *issue* com a ementa e o link, e alguém decide se ela entra no `normas.json`.
+
+A alteração de uma norma que já está no catálogo não precisa de aviso à parte: ela aparece no diff da captura seguinte, com a anotação "(Redação dada pela …)" do Planalto.
+
 ## Como usar
 
 Os arquivos são texto puro e podem ser lidos direto do GitHub:
@@ -70,7 +92,7 @@ Ou clone e rode a captura você mesmo:
 ```bash
 npm install
 npm run capturar   # baixa tudo das fontes e grava só o que mudou
-npm test           # 23 testes, sem acesso à internet
+npm test           # 32 testes, sem acesso à internet
 ```
 
 Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [`normas.json`](normas.json) com a URL do Planalto.
@@ -79,19 +101,19 @@ Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [
 
 - **Não é fonte oficial.** É uma cópia fiel e datada das fontes oficiais; para efeito legal, vale o publicado no Diário Oficial da União.
 - **Tabelas dentro do texto da lei.** No HTML do Planalto, as tabelas dos anexos (como as alíquotas do Simples) vêm com uma célula por parágrafo, e é assim que ficam no Markdown: legíveis e comparáveis, mas não em formato de tabela.
-- **Diário Oficial fora.** O site da Imprensa Nacional recusa acesso automatizado, então as normas novas ainda não são descobertas sozinhas: cada uma entra pelo `normas.json`.
-- **Por enquanto, só o começo.** Duas leis federais e as tabelas de produto. Os próximos passos estão abaixo.
+- **Descoberta só de leis complementares.** O Diário Oficial e o LexML respondem a acesso automatizado com bloqueio ou verificação anti-robô, e este repositório não tenta contornar isso. Leis ordinárias, decretos e instruções normativas novas ainda entram à mão, pelo `normas.json`.
+- **Só normas do Planalto.** O conversor entende o HTML do Planalto. Resoluções do CGSN (no site de normas da Receita, que só funciona com JavaScript) e regulamentos estaduais como o RICMS/PR têm outro formato e ainda não entram.
+- **Notas da TIPI e do CEST ficam de fora.** As notas de seção e de capítulo da TIPI e as notas de revogação do CEST ficam de fora; entram só as linhas de produto.
 
 ## Próximos passos
 
-- Mais normas: LC 227/2026, Decreto 12.955/2026, Resolução CGSN 189/2026 e o RICMS/PR.
-- TIPI (alíquotas de IPI por NCM), CEST e NBS completa.
-- Descoberta de normas novas pela API do LexML, com um aviso (*issue*) quando sair lei tributária nova.
+- Resoluções do CGSN e o RICMS/PR, com conversores próprios.
+- NBS completa e as tabelas de alíquota do ICMS por estado.
 - Consumo pelo [gestao-de-contabilidade](https://github.com/Matheuscfs/gestao-de-contabilidade): os artigos daqui viram a base do RAG que cita a lei ao sugerir uma classificação.
 
 ## In English
 
-Brazilian tax laws and product tax tables (NCM, and the IBS/CBS classification codes from the 2025 tax reform), captured daily from official government sources and versioned in Git. Each law is a Markdown file, one paragraph per legal provision, with superseded wording kept as strikethrough. When the government amends a law, the next capture becomes a commit and the diff shows exactly which provision changed. Product tables are deterministic CSVs that link an NCM code to its IBS/CBS classification and rate reduction.
+Brazilian tax laws (the Constitution's tax reform amendment, the National Tax Code, the Simples Nacional statute, the IBS/CBS laws and the CBS regulation) and product tax tables (NCM, IPI rates, ICMS tax-substitution codes and the IBS/CBS classification codes from the 2025 tax reform), captured daily from official government sources and versioned in Git. New tax-related complementary laws open an issue automatically. Each law is a Markdown file, one paragraph per legal provision, with superseded wording kept as strikethrough. When the government amends a law, the next capture becomes a commit and the diff shows exactly which provision changed. Product tables are deterministic CSVs that link an NCM code to its IBS/CBS classification and rate reduction.
 
 ## Licença
 

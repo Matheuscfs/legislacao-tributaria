@@ -12,7 +12,7 @@ import { createHash } from "node:crypto";
 const AGENTE =
   "Mozilla/5.0 (compatible; legislacao-tributaria/0.1; +https://github.com/Matheuscfs/legislacao-tributaria)";
 
-export type Baixado = { texto: string; sha256: string };
+export type Baixado = { texto: string; bytes: Uint8Array; sha256: string };
 
 export function sha256(conteudo: string | Uint8Array): string {
   return createHash("sha256").update(conteudo).digest("hex");
@@ -51,7 +51,7 @@ export async function baixar(url: string, tentativas = 3): Promise<Baixado> {
       });
       if (!resp.ok) throw new Error(`HTTP ${resp.status} em ${url}`);
       const bytes = new Uint8Array(await resp.arrayBuffer());
-      return { texto: decodificar(resp.headers.get("content-type"), bytes), sha256: sha256(bytes) };
+      return { texto: decodificar(resp.headers.get("content-type"), bytes), bytes, sha256: sha256(bytes) };
     } catch (e) {
       if (i >= tentativas) throw e;
       // Fonte pública fora do ar por alguns segundos é comum; insistir sem pausa não ajuda.
