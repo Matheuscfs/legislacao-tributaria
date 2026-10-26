@@ -41,7 +41,6 @@ cest,ncm,item,descricao,revogado
 01.040.00,8424.10.00,40.0,"Extintores, mesmo carregados",false
 01.041.00,8421.31.00,41.0,Filtros de entrada de ar para motores de ignição por centelha ou por compressão,false
 01.042.00,8421.32.00,42.0,Depuradores por conversão catalítica de gases de escape,false
-01.042.00,8421.39.20,42.0,Depuradores por conversão catalítica de gases de escape,false
 01.043.00,8425.42.00,43.0,Macacos,false
 01.044.00,8431.10.10,44.0,Partes para macacos do CEST 01.043.00,false
 01.045.00,8431.49.2,45.0,Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas agrícolas ou rodoviárias,false
@@ -57,7 +56,6 @@ cest,ncm,item,descricao,revogado
 01.053.01,8507.10.10,53.1,"Acumuladores elétricos de chumbo, do tipo utilizado para o arranque dos motores de pistão e de capacidade inferior ou igual a 20 Ah e tensão inferior ou igual a 12 V",false
 01.054.00,8511,54.0,"Aparelhos e dispositivos elétricos de ignição ou de arranque para motores de ignição por centelha ou por compressão (por exemplo, magnetos, dínamos-magnetos, bobinas de ignição, velas de ignição ou de aquecimento, motores de arranque); geradores (dínamos e alternadores, por exemplo) e conjuntores-disjuntores utilizados com estes motores",false
 01.055.00,8512.20 8512.40 8512.90.00,55.0,"Aparelhos elétricos de iluminação ou de sinalização (exceto os da posição 8539), limpadores de para-brisas, degeladores e desembaçadores (desembaciadores) elétricos e suas partes",false
-01.056.00,8517.12.13,56.0,Telefones móveis do tipo dos utilizados em veículos automóveis.,false
 01.056.00,8517.14.10,56.0,Telefones móveis do tipo dos utilizados em veículos automóveis,false
 01.057.00,8518,57.0,"Alto-falantes, amplificadores elétricos de audiofrequência e partes",false
 01.058.00,8518.50.00,58.0,Aparelhos elétricos de amplificação de som para veículos automotores,false
@@ -67,7 +65,6 @@ cest,ncm,item,descricao,revogado
 01.062.00,8527.29.00,62.0,"Outros aparelhos receptores de radiodifusão que só funcionem com fonte externa de energia, do tipo utilizado em veículos automóveis",false
 01.062.01,8521.90.90,62.1,"Outros aparelhos videofônicos de gravação ou de reprodução, mesmo incorporando um receptor de sinais videofônicos, dos tipos utilizados exclusivamente em veículos automotores",false
 01.063.00,8529.10,63.0,Antenas,false
-01.063.00,8529.10.90,63.0,Antenas,false
 01.064.00,8534.00,64.0,Circuitos impressos,false
 01.065.00,8535.30 8536.50,65.0,Interruptores e seccionadores e comutadores,false
 01.066.00,8536.10.00,66.0,Fusíveis e corta-circuitos de fusíveis,false
@@ -89,14 +86,12 @@ cest,ncm,item,descricao,revogado
 01.082.00,9031.80.40,82.0,"Aparelhos digitais, de uso em veículos automóveis, para medida e indicação de múltiplas grandezas tais como: velocidade média, consumos instantâneo e médio e autonomia (computador de bordo)",false
 01.083.00,9032.89.2,83.0,Controladores eletrônicos,false
 01.084.00,9104.00.00,84.0,Relógios para painéis de instrumentos e relógios semelhantes,false
-01.085.00,9401.20.00 9401.90.90,85.0,Assentos e partes de assentos,false
 01.085.00,9401.20.00 9401.99.00,85.0,Assentos e partes de assentos,false
 01.086.00,9613.80.00,86.0,Acendedores,false
 01.087.00,4009,87.0,"Tubos de borracha vulcanizada não endurecida, mesmo providos de seus acessórios",false
 01.088.00,4504.90.00 6812.99.10,88.0,Juntas de vedação de cortiça natural e de amianto,false
 01.089.00,4823.40.00,89.0,"Papel-diagrama para tacógrafo, em disco",false
 01.090.00,3919.10 3919.90 8708.29.99,90.0,"Fitas, tiras, adesivos, autocolantes, de plástico, refletores, mesmo em rolos; placas metálicas com película de plástico refletora, próprias para colocação em carrocerias, para-choques de veículos de carga, motocicletas, ciclomotores, capacetes, bonés de agentes de trânsito e de condutores de veículos, atuando como dispositivos refletivos de segurança rodoviários",false
-01.090.00,3919.10.00 3919.90.00 8708.29.99,90.0,"Fitas, tiras, adesivos, autocolantes, de plástico, refletores, mesmo em rolos; placas metálicas com película de plástico refletora, próprias para colocação em carrocerias, para-choques de veículos de carga, motocicletas, ciclomotores, capacetes, bonés de agentes de trânsito e de condutores de veículos, atuando como dispositivos refletivos de segurança rodoviários",false
 01.091.00,8412.31.10,91.0,Cilindros pneumáticos,false
 01.092.00,8413.19.00 8413.50.90 8413.81.00,92.0,Bomba elétrica de lavador de para-brisa,false
 01.093.00,8413.60.19 8413.70.10,93.0,Bomba de assistência de direção hidráulica,false
@@ -111,15 +106,12 @@ cest,ncm,item,descricao,revogado
 01.102.00,9027.10.00,102.0,Analisadores de gases ou de fumaça (sonda lambda),false
 01.103.00,4008.11.00,103.0,Perfilados de borracha vulcanizada não endurecida,false
 01.104.00,5601.22.19,104.0,Artefatos de pasta de fibra de uso automotivo,false
-01.105.00,5703.20.00,105.0,Tapetes/carpetes - nailón,false
 01.105.00,5703.29.00,105.0,Tapetes/carpetes – náilon,false
-01.106.00,5703.30.00,106.0,Tapetes de matérias têxteis sintéticas,false
 01.106.00,5703.39.00,106.0,Tapetes de matérias têxteis sintéticas,false
 01.107.00,5911.90.00,107.0,Forração interior capacete,false
 01.108.00,6903.90.99,108.0,Outros para-brisas,false
 01.109.00,7007.29.00,109.0,Moldura com espelho,false
 01.110.00,7314.50.00,110.0,REVOGADO,true
-01.110.00,7314.50.00,110.0,Corrente de transmissão,false
 01.111.00,7315.11.00,111.0,Corrente transmissão,false
 01.112.00,7315.12.10,112.0,Outras correntes de transmissão,false
 01.113.00,8418.99.00,113.0,Condensador tubular metálico,false
@@ -165,71 +157,38 @@ cest,ncm,item,descricao,revogado
 02.024.00,2204,24.0,"Vinhos de uvas frescas, incluindo os vinhos enriquecidos com álcool; mostos de uvas.",false
 02.999.00,2205 2206 2207 2208,999.0,Outras bebidas alcoólicas não especificadas nos itens anteriores,false
 03.001.00,2201.10.00,1.0,REVOGADO,true
-03.001.00,2201.10.00,1.0,"Água mineral, gasosa ou não, ou potável, naturais, em garrafa de vidro, retornável ou não, com capacidade de até 500 ml",false
 03.001.00,2201.10.00,1.0,REVOGADO,true
-03.001.00,2201.10.00,1.0,"Água mineral, gasosa ou não, ou potável, naturais, em garrafa de vidro, retornável ou não, com capacidade de até 500 ml",false
 03.002.00,2201.10.00,2.0,REVOGADO,true
-03.002.00,2201.10.00,2.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem com capacidade igual ou superior a 5.000 ml; exceto as classificadas no CEST 03.024.00 e 03.025.00",false
 03.002.00,2201.10.00,2.0,REVOGADO,true
-03.002.00,2201.10.00,2.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem com capacidade igual ou superior a 5.000 ml; exceto as classificadas no CEST 03.024.00 e 03.025.00",false
-03.003.00,2201.10.00,3.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro descartável",false
-03.003.00,2201.10.00,3.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro, não retornável, com capacidade de até 300 ml",false
-03.003.00,2201.10.00,3.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro descartável",false
-03.003.00,2201.10.00,3.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro, não retornável, com capacidade de até 300 ml",false
 03.003.00,2201.10.00 2201.90.00,3.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro descartável",false
 03.003.00,2201.10.00 2201.90.00,3.0,"Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro descartável",false
-03.003.01,2201.10.00,3.1,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em embalagem de vidro descartável",false
-03.003.01,2201.10.00,28,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em embalagem de vidro descartável",false
 03.003.01,2201.10.00 2201.90.00,3.1,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em embalagem de vidro descartável",false
 03.003.01,2201.10.00 2201.90.00,28,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em embalagem de vidro descartável",false
 03.004.00,2201.10.00,4.0,REVOGADO,true
-03.004.00,2201.10.00,4.0,"Água mineral, gasosa ou não, ou potável, naturais, em garrafa plástica de 1.500 ml",false
 03.004.00,2201.10.00,4.0,REVOGADO,true
-03.004.00,2201.10.00,4.0,"Água mineral, gasosa ou não, ou potável, naturais, em garrafa plástica de 1.500 ml",false
-03.005.00,2201.10.00,5.0,"Água mineral, gasosa ou não, ou potável, naturais, em copo plástico descartável",false
-03.005.00,2201.10.00,5.0,"Água mineral, gasosa ou não, ou potável, naturais, em copos plásticos e embalagem plástica com capacidade de até 500 ml",false
-03.005.00,2201.10.00,5.0,"Água mineral, gasosa ou não, ou potável, naturais, em copo plástico descartável",false
-03.005.00,2201.10.00,5.0,"Água mineral, gasosa ou não, ou potável, naturais, em copos plásticos e embalagem plástica com capacidade de até 500 ml",false
 03.005.00,2201.10.00 2201.90.00,5.0,"Água mineral, gasosa ou não, ou potável, naturais, em copo plástico descartável",false
 03.005.00,2201.10.00 2201.90.00,5.0,"Água mineral, gasosa ou não, ou potável, naturais, em copo plástico descartável",false
-03.005.01,2201.10.00,5.1,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em copo plástico descartável",false
-03.005.01,2201.10.00,29,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em copo plástico descartável",false
 03.005.01,2201.10.00 2201.90.00,5.1,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em copo plástico descartável",false
 03.005.01,2201.10.00 2201.90.00,29,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em copo plástico descartável",false
-03.005.02,2201.10.00,5.2,"Água mineral, gasosa ou não, ou potável, naturais, em jarra descartável",false
-03.005.02,2201.10.00,30,"Água mineral, gasosa ou não, ou potável, naturais, em jarra descartável",false
 03.005.02,2201.10.00 2201.90.00,5.2,"Água mineral, gasosa ou não, ou potável, naturais, em jarra descartável",false
 03.005.02,2201.10.00 2201.90.00,30,"Água mineral, gasosa ou não, ou potável, naturais, em jarra descartável",false
-03.005.03,2201.10.00,5.3,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em jarra descartável",false
-03.005.03,2201.10.00,31,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em jarra descartável",false
 03.005.03,2201.10.00 2201.90.00,5.3,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em jarra descartável",false
 03.005.03,2201.10.00 2201.90.00,31,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em jarra descartável",false
-03.005.04,2201.10.00,5.4,"Água mineral, gasosa ou não, ou potável, naturais, em demais embalagens descartáveis",false
-03.005.04,2201.10.00,32,"Água mineral, gasosa ou não, ou potável, naturais, em demais embalagens descartáveis",false
 03.005.04,2201.10.00 2201.90.00,5.4,"Água mineral, gasosa ou não, ou potável, naturais, em demais embalagens descartáveis",false
 03.005.04,2201.10.00 2201.90.00,32,"Água mineral, gasosa ou não, ou potável, naturais, em demais embalagens descartáveis",false
-03.005.05,2201.10.00,5.5,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em demais embalagens descartáveis",false
-03.005.05,2201.10.00,33,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em demais embalagens descartáveis",false
 03.005.05,2201.10.00 2201.90.00,5.5,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em demais embalagens descartáveis",false
 03.005.05,2201.10.00 2201.90.00,33,"Água mineral, gasosa ou não, ou potável, naturais, adicionadas de sais, em demais embalagens descartáveis",false
 03.006.00,2201,6.0,"Outras águas minerais, gasosa ou não, ou potável, naturais; exceto as classificadas no CEST 03.003.00, 03.003.01, 03.005.00, 03.005.01 a 03.005.05, 03.024.00 e 03.025.00",false
 03.006.00,2201,6.0,"Outras águas minerais, gasosa ou não, ou potável, naturais; exceto as classificadas no CEST 03.003.00, 03.003.01, 03.005.00, 03.005.01 a 03.005.05, 03.024.00 e 03.025.00",false
-03.006.00,2201.10.00,6.0,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas; exceto as classificadas no CEST 03.024.00 e 03.025.00",false
-03.006.00,2201.10.00,6.0,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas; exceto as classificadas no CEST 03.024.00 e 03.025.00",false
 03.006.00,2201.10.00,6,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas; exceto as classificadas no CEST 03.024.00 e 03.025.00",false
 03.006.00,2201.10.00,6,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas",false
 03.006.00,2201.10.00,6,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas; exceto as classificadas no CEST 03.024.00 e 03.025.00",false
 03.007.00,2202.10.00,7.0,"Água aromatizada artificialmente, exceto os refrescos e refrigerantes",false
-03.007.00,2202.10.00,7.0,"Águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes",false
 03.007.00,2202.10.00,7.0,"Água aromatizada artificialmente, exceto os refrescos e refrigerantes",false
-03.007.00,2202.10.00,7.0,"Águas mineiras, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes",false
 03.007.00,2202.10.00,7,"Águas mineiras, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes",false
 03.007.00,2202.10.00,7,"Águas mineiras, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes",false
 03.008.00,2202.99.00,8.0,"Outras águas minerais, gasosa ou não, ou potável, naturais, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes",false
-03.008.00,2202.99.00,8.0,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente",false
 03.008.00,2202.99.00,8.0,"Outras águas minerais, gasosa ou não, ou potável, naturais, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes",false
-03.008.00,2202.99.00,8.0,"Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente",false
-03.010.00,2202,10.0,"Refrigerantes em garrafa com capacidade igual ou superior a 600 ml, exceto os classificados no CEST 03.011.01",false
 03.010.00,2202,9.0,Refrigerante em garrafa com capacidade igual ou superior a 600ml,false
 03.010.00,2202.10.00 2202.99.00,10.0,Refrigerante em vidro descartável,false
 03.010.00,2202.10.00 2202.99.00,10.0,Refrigerante em vidro descartável,false
@@ -238,46 +197,25 @@ cest,ncm,item,descricao,revogado
 03.010.02,2202.10.00 2202.99.00,10.2,Refrigerante em lata,false
 03.010.02,2202.10.00 2202.99.00,35,Refrigerante em lata,false
 03.010.03,2202.10.00 2202.99.00,10.3,REVOGADO,true
-03.010.03,2202.10.00 2202.99.00,10.3,Cápsula de refrigerante,false
 03.010.03,2202.10.00 2202.99.00,36,REVOGADO,true
-03.010.03,2202.10.00 2202.99.00,36,Cápsula de refrigerante,false
-03.011.00,2202,11.0,"Demais refrigerantes, exceto os classificados no CEST 03.010.00 e 03.011.01",false
-03.011.00,2202,10.0,Demais refrigerantes,false
 03.011.00,2202.10.00 2202.99.00,11.0,"Demais refrigerantes, exceto os classificados no CEST 03.010.00, 03.010.01, 03.010.02 e 03.011.01",false
-03.011.00,2202.10.00 2202.99.00,11.0,"Demais refrigerantes, exceto os classificados no CEST 03.010.00, 03.010.01, 03.010.02, 03.010.03 e 03.011.01",false
 03.011.00,2202.10.00 2202.99.00,11.0,"Demais refrigerantes, exceto os classificados no CEST 03.010.00, 03.010.01, 03.010.02 e 03.011.01",false
-03.011.00,2202.10.00 2202.99.00,11.0,"Demais refrigerantes, exceto os classificados no CEST 03.010.00, 03.010.01, 03.010.02, 03.010.03 e 03.011.01",false
 03.011.01,2202,11.1,Espumantes sem álcool,false
 03.012.00,2106.90.10,12.0,"Xarope ou extrato concentrado destinados ao preparo de refrigerante em máquina “pré-mix” ou “post-mix”, exceto o classificado no CEST 03.012.01",false
-03.012.00,2106.90.10,12.0,Xarope ou extrato concentrado destinados ao preparo de refrigerante em máquina “pré-mix” ou “post-mix”,false
-03.012.00,2106.90.10,11.0,Xarope ou extrato concentrado destinados ao preparo de refrigerante em máquina “pré-mix” ou “post-mix”,false
 03.012.01,2106.90.10,12.1,Cápsula de refrigerante,false
 03.013.00,2106.90 2202.99.00,13.0,Bebidas energéticas em lata,false
-03.013.00,2106.90 2202.99.00,13.0,Bebidas energéticas em embalagem com capacidade inferior a 600ml,false
 03.013.00,2106.90 2202.99.00,12.0,Bebidas energéticas em lata,false
-03.013.00,2106.90 2202.99.00,12.0,Bebidas energéticas em embalagem com capacidade inferior a 600ml,false
 03.013.01,2106.90 2202.99.00,13.1,Bebidas energéticas em embalagem PET,false
 03.013.01,2106.90 2202.99.00,37,Bebidas energéticas em embalagem PET,false
 03.013.02,2106.90 2202.99.00,13.2,Bebidas energéticas em vidro,false
 03.013.02,2106.90 2202.99.00,38,Bebidas energéticas em vidro,false
 03.014.00,2106.90 2202.99.00,14.0,REVOGADO,true
-03.014.00,2106.90 2202.99.00,14.0,Bebidas energéticas em embalagem com capacidade igual ou superior a 600ml,false
 03.014.00,2106.90 2202.99.00,15.0,REVOGADO,true
-03.014.00,2106.90 2202.99.00,15.0,Bebidas energéticas em embalagem com capacidade igual ou superior a 600ml,false
 03.015.00,2106.90 2202.99.00,15.0,Bebidas hidroeletrolíticas,false
-03.015.00,2106.90 2202.99.00,15.0,Bebidas hidroeletrolíticas em embalagem com capacidade inferior a 600ml,false
-03.015.00,2106.90 2202.99.00,15.0,Bebidas hidroeletrolíticas (isotônicas) em embalagem com capacidade inferior a 600ml,false
 03.015.00,2106.90 2202.99.00,16.0,Bebidas hidroeletrolíticas,false
-03.015.00,2106.90 2202.99.00,16.0,Bebidas hidroeletrolíticas em embalagem com capacidade inferior a 600ml,false
-03.015.00,2106.90 2202.99.00,16,Bebidas hidroeletrolíticas (isotônicos) em embalagem com capacidade inferior a 600ml,false
 03.016.00,2106.90 2202.99.00,16.0,REVOGADO,true
-03.016.00,2106.90 2202.99.00,16.0,Bebidas hidroeletrolíticas em embalagem com capacidade igual ou superior a 600ml,false
-03.016.00,2106.90 2202.99.00,16.0,Bebidas hidroeletrolíticas (isotônicas) em embalagem com capacidade igual ou superior a 600ml,false
 03.016.00,2106.90 2202.99.00,17.0,REVOGADO,true
-03.016.00,2106.90 2202.99.00,17.0,Bebidas hidroeletrolíticas em embalagem com capacidade igual ou superior a 600ml,false
-03.016.00,2106.90 2202.99.00,17,Bebidas hidroeletrolíticas (isotônicos) em embalagem com capacidade igual ou superior a 600ml,false
 03.021.00,2203.00.00,21.0,Cerveja em garrafa de vidro retornável,false
-03.021.00,2203.00.00,21.0,Cerveja,false
 03.021.01,2203.00.00,21.1,Cerveja em garrafa de vidro descartável,false
 03.021.02,2203.00.00,21.2,Cerveja em garrafa de alumínio,false
 03.021.03,2203.00.00,21.3,Cerveja em lata,false
@@ -285,9 +223,7 @@ cest,ncm,item,descricao,revogado
 03.021.05,2203.00.00,21.5,Cerveja em embalagem PET,false
 03.021.06,2203.00.00,21.6,Cerveja em outras embalagens,false
 03.022.00,2202.91.00,22.0,Cerveja sem álcool em garrafa de vidro retornável,false
-03.022.00,2202.91.00,22.0,Cerveja sem álcool,false
 03.022.00,2202.91.00,18,Cerveja sem álcool em garrafa de vidro retornável,false
-03.022.00,2202.91.00,18,Cerveja sem álcool,false
 03.022.01,2202.91.00,22.1,Cerveja sem álcool em garrafa de vidro descartável,false
 03.022.01,2202.91.00,39,Cerveja sem álcool em garrafa de vidro descartável,false
 03.022.02,2202.91.00,22.2,Cerveja sem álcool em garrafa de alumínio,false
@@ -379,7 +315,6 @@ cest,ncm,item,descricao,revogado
 09.002.00,8540,2.0,Lâmpadas eletrônicas,false
 09.003.00,8504.10.00,3.0,Reatores para lâmpadas ou tubos de descargas,false
 09.004.00,8536.50,4.0,“Starter”,false
-09.005.00,8539.50.00,5.0,Lâmpadas de LED (Diodos Emissores de Luz),false
 09.005.00,8539.52.00,5.0,Lâmpadas de LED (diodos emissores de luz),false
 10.001.00,2522,1.0,Cal,false
 10.002.00,3816.00.1 3824.50.00,2.0,Argamassas,false
@@ -404,9 +339,7 @@ cest,ncm,item,descricao,revogado
 10.021.00,4814,21.0,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,false
 10.022.00,6810.19.00,22.0,Telhas de concreto,false
 10.023.00,6811,23.0,REVOGADO,true
-10.023.00,6811,23.0,"Telha, cumeeira e caixa d’água, inclusive sua tampa, de fibrocimento, cimento-celulose",false
 10.024.00,6811,24.0,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto.",false
-10.024.00,6811,24.0.,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto, exceto os descritos no CEST 10.023.00",false
 10.025.00,6901.00.00,25.0,"Tijolos, placas (lajes), ladrilhos e outras peças cerâmicas de farinhas siliciosas fósseis (“kieselghur”, tripolita, diatomita, por exemplo) ou de terras siliciosas semelhantes",false
 10.025.00,6901.00.00,1,"Tijolos, placas (lajes), ladrilhos e outras peças cerâmicas de farinhas siliciosas fósseis (""kieselghur"", tripolita, diatomita, por exemplo) ou de terras siliciosas semelhantes",false
 10.026.00,6902,26.0,"Tijolos, placas (lajes), ladrilhos e peças cerâmicas semelhantes, para uso na construção, refratários, que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes",false
@@ -436,7 +369,6 @@ cest,ncm,item,descricao,revogado
 10.041.01,7308.90.10,41.1,Outros vergalhões,false
 10.042.00,7214.20.00,42.0,Vergalhões,false
 10.043.00,7213,43.0,Outros vergalhões,false
-10.043.00,7213 7308.90.10,43.0,Outros vergalhões,false
 10.044.00,7217.10.90 7312,44.0,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos; cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",false
 10.045.00,7217.20.10,45.0,"Outros fios de ferro ou aço, não ligados, galvanizados com teor de carbono superior ou igual a 0,6%, em peso",false
 10.045.01,7217.20.90,45.1,"Outros fios de ferro ou aço, não ligados, galvanizados",false
@@ -453,7 +385,6 @@ cest,ncm,item,descricao,revogado
 10.056.00,7315.82.00,56.0,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",false
 10.057.00,7317.00,57.0,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",false
 10.058.00,7318,58.0,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, contrapinos ou troços, arruelas (anilhas) (incluindo as de pressão) e artigos semelhantes, de ferro fundido, ferro ou aço",false
-10.058.00,7318,58.0,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",false
 10.059.00,7323,59.0,"Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",false
 10.059.01,7323,59.1,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",false
 10.060.00,7324,60.0,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço, para uso na construção",false
@@ -477,32 +408,13 @@ cest,ncm,item,descricao,revogado
 10.078.00,8311,78.0,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",false
 10.079.00,8481,79.0,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",false
 10.080.00,7009,80.0,"Espelhos de vidro, mesmo emoldurados, exceto os de uso automotivo",false
-11.001.00,2828.90.11 2828.90.19 3206.41.00 3402.20.00 3808.94.19,1.0,"Água sanitária, branqueador e outros alvejantes",false
 11.001.00,2828.90.11 2828.90.19 3206.41.00 3402.50.00 3808.94.19,1.0,"Água sanitária, branqueador e outros alvejantes",false
-11.002.00,3401.20.90,2.0,"Sabões em pó, flocos, palhetas, grânulos ou outras formas semelhantes, para lavar roupas",false
 11.002.00,3401.20.90 3808.94.19,2.0,"Sabões, desinfetantes e sanitizantes, todos em pó, flocos, palhetas, grânulos ou outras formas semelhantes, para lavar roupas",false
-11.002.00,3401.20.90 3808.94.19,2.0,"Sabões em pó, flocos, palhetas, grânulos ou outras formas semelhantes, para lavar roupas, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
-11.003.00,3401.20.90,3.0,Sabões líquidos para lavar roupas,false
 11.003.00,3401.20.90 3808.94.19,3.0,"Sabões, desinfetantes e sanitizantes, todos líquidos para lavar roupas",false
-11.003.00,3401.20.90 3808.94.19,3.0,"Sabões líquidos para lavar roupas, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
-11.004.00,3402.20.00,4.0,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
-11.004.00,3402.20.00,4.0,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes",false
-11.004.00,3402.20.00,1,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes",false
-11.004.00,3402.20.00,1,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes",false
-11.004.00,3402.20.00 3808.94.19,4.0,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
-11.004.00,3402.20.00 3808.94.19,1,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
 11.004.00,3402.50.00,4.0,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
 11.004.00,3402.50.00,1,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes",false
-11.005.00,3402.20.00,5.0,"Detergentes líquidos, exceto para lavar roupa",false
-11.005.00,3402.20.00,2,"Detergentes líquidos, exceto para lavar roupa",false
 11.005.00,3402.50.00,5.0,"Detergentes líquidos, exceto para lavar roupa",false
 11.005.00,3402.50.00,2,"Detergentes líquidos, exceto para lavar roupa",false
-11.006.00,3402.20.00,6.0,"Detergente líquido para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
-11.006.00,3402.20.00,6.0,Detergente líquido para lavar roupa,false
-11.006.00,3402.20.00,3,"Detergentes líquidos para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes",false
-11.006.00,3402.20.00,3,Detergente líquido para lavar roupa,false
-11.006.00,3402.20.00 3808.94.19,6.0,"Detergente líquido para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
-11.006.00,3402.20.00 3808.94.19,3,"Detergente líquido para lavar roupa, , inclusive adicionados de propriedades desinfetantes ou sanitizantes",false
 11.006.00,3402.50.00,6.0,"Detergente líquido para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",false
 11.006.00,3402.50.00,3,"Detergente líquido para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes",false
 11.007.00,3402,7.0,"Outros agentes orgânicos de superfície (exceto sabões); preparações tensoativas, preparações para lavagem (incluídas as preparações auxiliares para lavagem) e preparações para limpeza (inclusive multiuso e limpadores), mesmo contendo sabão, exceto os produtos descritos nos CEST 11.001.00, 11.004.00, 11.005.00 e 11.006.00; em embalagem de conteúdo inferior ou igual a 50 litros ou 50 kg",false
@@ -533,9 +445,7 @@ cest,ncm,item,descricao,revogado
 13.004.01,3003 3004,4.1,"Outros tipos de medicamentos - negativa, exceto para uso veterinário",false
 13.004.02,3003 3004,4.2,"Outros tipos de medicamentos - neutra, exceto para uso veterinário",false
 13.005.00,3006.60.00,5.0,"Preparações químicas contraceptivas de referência, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas - positiva.",false
-13.005.00,3006.60.00,5.0,"Preparações químicas contraceptivas à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas - positiva",false
 13.005.01,3006.60.00,5.1,"Preparações químicas contraceptivas de referência, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas - negativa.",false
-13.005.01,3006.60.00,5.1,"Preparações químicas contraceptivas à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas - negativa",false
 13.005.02,3006.60.00,5.2,"Preparações químicas contraceptivas genérico, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – positiva.",false
 13.005.03,3006.60.00,5.3,"Preparações químicas contraceptivas genérico, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – negativa.",false
 13.005.04,3006.60.00,5.4,"Preparações químicas contraceptivas similar, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – positiva.",false
@@ -550,7 +460,6 @@ cest,ncm,item,descricao,revogado
 13.010.00,3005.10.10,10.0,"Curativos (pensos) adesivos e outros artigos com uma camada adesiva, impregnados ou recobertos de substâncias farmacêuticas - Lista Positiva",false
 13.010.01,3005.10.10,10.1,"Curativos (pensos) adesivos e outros artigos com uma camada adesiva, impregnados ou recobertos de substâncias farmacêuticas - Lista Negativa",false
 13.011.00,3005,11.0,"Algodão, atadura, esparadrapo, gazes, pensos, sinapismos, e outros, acondicionados para venda a retalho para usos medicinais, cirúrgicos ou dentários, não impregnados ou recobertos de substâncias farmacêuticas - Lista Neutra",false
-13.012.00,4015.11.00 4015.19.00,12.0,Luvas cirúrgicas e luvas de procedimento - neutra,false
 13.012.00,4015.12.00 4015.19.00,12.0,Luvas cirúrgicas e luvas de procedimento - neutra,false
 13.013.00,4014.10.00,13.0,Preservativo – neutra,false
 13.014.00,9018.31,14.0,"Seringas, mesmo com agulhas - neutra",false
@@ -581,91 +490,31 @@ cest,ncm,item,descricao,revogado
 16.008.00,4013,8.0,"Câmaras de ar de borracha, exceto os itens classificados no CEST 16.009.00",false
 16.009.00,4013.20.00,9.0,Câmaras de ar de borracha dos tipos utilizados em bicicletas,false
 17.001.00,1704.90.10,1.0,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados no CEST 17.005.00",false
-17.001.00,1704.90.10,1.0,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10,1,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os ovos de páscoa de chocolate",false
 17.001.00,1704.90.10,1,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados no CEST 17.005.00",false
 17.001.00,1704.90.10,1,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10,1,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10,1,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10,1,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os ovos de páscoa de chocolate",false
-17.001.00,1704.90.10 1704.90.90,1.0,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10 1704.90.90,1.0,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10 1704.90.90,1.0,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.00,1704.90.10 1704.90.90,1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
 17.001.01,1704.90.10,1.1,"Chocolate branco, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados no CEST 17.005.00",false
-17.001.01,1704.90.10,1.1,"Chocolate branco, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
 17.001.01,1704.90.10,1.1,"Chocolate branco, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados no CEST 17.005.00",false
-17.001.01,1704.90.10,1.1,"Chocolate branco, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.01,1704.90.10 1704.90.90,1.1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.01,1704.90.10 1704.90.90,1.1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.01,1704.90.10 1704.90.90,1.1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.01,1704.90.10 1704.90.90,1.1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.01,1704.90.10 1704.90.90,1.1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.01,1704.90.10 1704.90.90,1.1,"Chocolate branco, coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.02,1704.90.10 1704.90.90,1.2,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.02,1704.90.10 1704.90.90,1.2,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
 17.001.02,1704.90.90,1.2,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados no CEST 17.008.00",false
 17.001.02,1704.90.90,1.2,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados no CEST 17.008.00",false
-17.001.03,1704.90.10 1704.90.90,1.3,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
-17.001.03,1704.90.10 1704.90.90,1.3,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.00 e 17.008.00",false
 17.001.03,1704.90.90,1.3,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados no CEST 17.008.00",false
 17.001.03,1704.90.90,1.3,"Coberturas de chocolate branco e outros produtos de confeitaria com manteiga de cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados no CEST 17.008.00",false
 17.002.00,1806.31.10,2.0,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
 17.002.00,1806.31.10,2,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2.0,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2.0,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2.0,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2.0,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2,"Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.00,1806.31.10 1806.31.20,2,"Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",false
 17.002.01,1806.31.10,2.1,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
 17.002.01,1806.31.10,2.1,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
 17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.01,1806.31.10 1806.31.20,2.1,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
-17.002.02,1806.31.10 1806.31.20,2.2,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.02,1806.31.10 1806.31.20,2.2,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
 17.002.02,1806.31.20,2.2,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
 17.002.02,1806.31.20,2.2,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 1 kg",false
-17.002.03,1806.31.10 1806.31.20,2.3,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
 17.002.03,1806.31.10 1806.31.20,2.3,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
 17.002.03,1806.31.20,2.3,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
 17.002.03,1806.31.20,2.3,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, recheados, em recipientes ou embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg",false
 17.003.00,1806.32.10,3.0,"Chocolates, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
 17.003.00,1806.32.10,3,"Chocolates, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3.0,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3.0,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3.0,"Chocolates, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3.0,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3,"Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3,"Chocolates, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3,"Chocolates ou outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.00,1806.32.10 1806.32.20,3,"Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
-17.003.01,1806.32.10 1806.32.20,3.1,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
 17.003.01,1806.32.10 1806.32.20,3.1,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
 17.003.01,1806.32.20,3.1,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
 17.003.01,1806.32.20,3.1,"Outras preparações alimentícias que contenham cacau, em tabletes, barras ou paus, não recheados, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",false
 17.004.00,1806.90.00,4.0,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02, 17.007.00 e 17.109.00",false
-17.004.00,1806.90.00,4.0,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
-17.004.00,1806.90.00,4.0,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
-17.004.00,1806.90.00,4,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os achocolatados em pó e ovos de páscoa de chocolate",false
 17.004.00,1806.90.00,4,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02, 17.007.00 e 17.109.00",false
-17.004.00,1806.90.00,4,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
-17.004.00,1806.90.00,4,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
-17.004.00,1806.90.00,4,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os achocolatados em pó e ovos de páscoa de chocolate",false
-17.004.01,1806.90.00,4.1,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
-17.004.01,1806.90.00,4.1,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
 17.004.01,1806.90.00,4.1,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
 17.004.01,1806.90.00,4.1,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo superior a 1 kg e inferior ou igual a 2 kg, exceto os classificados nos CEST 17.005.01, 17.006.00, 17.006.02 e 17.007.00",false
 17.005.00,1704.90.10,5.0,Ovos de páscoa de chocolate branco,false
@@ -723,13 +572,9 @@ cest,ncm,item,descricao,revogado
 17.020.01,0402.9,20.1,"Leite condensado, em recipiente de conteúdo superior a 1 kg",false
 17.020.01,0402.9,13,"Leite condensado, em recipiente de conteúdo superior a 1 kg",false
 17.021.00,0403,21.0,"Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros, exceto o item classificado no CEST 17.022.00",false
-17.021.00,0403,21.0,Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros,false
 17.021.00,0403,14,"Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros, exceto o item classificado no CEST 17.022.00",false
-17.021.00,0403,14,Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros,false
 17.021.01,0403,21.1,"Iogurte e leite fermentado em recipiente de conteúdo superior a 2 litros, exceto o item classificado no CEST 17.022.00",false
-17.021.01,0403,21.1,Iogurte e leite fermentado em recipiente de conteúdo superior a 2 litros,false
 17.021.01,0403,15,"Iogurte e leite fermentado em recipiente de conteúdo superior a 2 litros, exceto o item classificado no CEST 17.022.00",false
-17.021.01,0403,15,Iogurte e leite fermentado em recipiente de conteúdo superior a 2 litros,false
 17.022.00,0403.90.00,22.0,Coalhada,false
 17.022.00,0403.90.00,16,Coalhada,false
 17.023.00,0406,23.0,"Requeijão e similares, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",false
@@ -739,7 +584,6 @@ cest,ncm,item,descricao,revogado
 17.024.00,0406,24.0,"Queijos, exceto os dos CEST 17.024.01, 17.024.02, 17.024.03, 17.024.04 e 17.024.05",false
 17.024.00,0406,24.0,"Queijos, exceto os dos CEST 17.024.01, 17.024.02, 17.024.03 e 17.024.04",false
 17.024.00,0406,19,"Queijos, exceto os dos CEST 17.024.01, 17.024.02, 17.024.03, 17.024.04 e 17.024.05",false
-17.024.00,0406,19,"Queijos, exceto os dos CEST 17.024.01, 17.024.02, 17.024.03 e 17.024.04",false
 17.024.01,0406.10.10,24.1,Queijo muçarela,false
 17.024.01,0406.10.10,20,Queijo muçarela,false
 17.024.02,0406.10.90,24.2,Queijo minas frescal,false
@@ -750,7 +594,6 @@ cest,ncm,item,descricao,revogado
 17.024.04,0406.10.90,23,Queijo petitsuisse,false
 17.024.05,0406.10.90,24.5,Queijo cremoso (“cream cheese”),false
 17.024.05,0406.10.90,23.1,Queijo cremoso (“cream cheese”),false
-17.024.05,0406.90,24.5,Queijo cremoso (“cream cheese”),false
 17.024.05,0406.90,23.1,Queijo cremoso (“cream cheese”),false
 17.025.00,0405.10.00,25.0,"Manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",false
 17.025.00,0405.10.00,24,"Manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",false
@@ -773,11 +616,7 @@ cest,ncm,item,descricao,revogado
 17.030.00,1904.10.00 1904.90.00,30.0,"Produtos à base de cereais, obtidos por expansão ou torrefação",false
 17.030.00,1904.10.00 1904.90.00,3,"Produtos à base de cereais, obtidos por expansão ou torrefação",false
 17.031.00,1905.90.90,31.0,"Salgadinhos diversos, exceto os classificados no CEST 17.031.01 e 17.031.02",false
-17.031.00,1905.90.90,31.0,"Salgadinhos diversos, exceto os classificados no CEST 17.031.01",false
-17.031.00,1905.90.90,31.0,Salgadinhos diversos,false
 17.031.00,1905.90.90,4,"Salgadinhos diversos, exceto os classificados no CEST 17.031.01 e 17.031.02",false
-17.031.00,1905.90.90,4,"Salgadinhos diversos, exceto os classificados no CEST 17.031.01",false
-17.031.00,1905.90.90,4,Salgadinhos diversos,false
 17.031.01,1905.90.90,31.1,"Salgadinhos diversos, derivados de farinha de trigo",false
 17.031.01,1905.90.90,4.1,"Salgadinhos diversos, derivados de farinha de trigo",false
 17.031.02,1905.90.90,31.2,Biscoitos de polvilho,false
@@ -839,102 +678,52 @@ cest,ncm,item,descricao,revogado
 17.045.00,1101.00.20,45.0,Farinha de mistura de trigo com centeio (méteil),false
 17.046.00,1901.20 1901.90.90,46.0,"Misturas e preparações para bolos, em embalagem inferior 5 kg",false
 17.046.00,1901.20 1901.90.90,1,"Misturas e preparações para bolos, em embalagem inferior 5 kg",false
-17.046.00,1901.20.00 1901.90.90,46.0,"Misturas e preparações para bolos, em embalagem inferior 5 kg",false
-17.046.00,1901.20.00 1901.90.90,1,"Misturas e preparações para bolos, em embalagem inferior a 5 kg",false
 17.046.01,1901.20 1901.90.90,46.1,"Misturas e preparações para bolos, em embalagem igual a 5 kg",false
 17.046.01,1901.20 1901.90.90,2,"Misturas e preparações para bolos, em embalagem igual a 5 kg",false
-17.046.01,1901.20.00 1901.90.90,46.1,"Misturas e preparações para bolos, em embalagem igual a 5 kg",false
-17.046.01,1901.20.00 1901.90.90,2,"Misturas e preparações para bolos, em embalagem igual a 5 kg",false
 17.046.02,1901.20 1901.90.90,46.2,"Misturas e preparações para bolos, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.02,1901.20 1901.90.90,3,"Misturas e preparações para bolos, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
-17.046.02,1901.20.00 1901.90.90,46.2,"Misturas e preparações para bolos, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
-17.046.02,1901.20.00 1901.90.90,3,"Misturas e preparações para bolos, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.03,1901.20 1901.90.90,46.3,"Misturas e preparações para bolos, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.03,1901.20 1901.90.90,4,"Misturas e preparações para bolos, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
-17.046.03,1901.20.00 1901.90.90,46.3,"Misturas e preparações para bolos, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
-17.046.03,1901.20.00 1901.90.90,4,"Misturas e preparações para bolos, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.03,1901.20.00 1901.90.90,16,REVOGADO,true
-17.046.03,1901.20.00 1901.90.90,16,"Misturas e preparações para bolos, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.04,1901.20 1901.90.90,46.4,"Misturas e preparações para bolos, em embalagem superior a 50 Kg",false
 17.046.04,1901.20 1901.90.90,5,"Misturas e preparações para bolos, em embalagem superior a 50 Kg",false
-17.046.04,1901.20.00 1901.90.90,46.4,"Misturas e preparações para bolos, em embalagem superior a 50 Kg",false
-17.046.04,1901.20.00 1901.90.90,5,"Misturas e preparações para bolos, em embalagem superior a 50 Kg",false
 17.046.04,1901.20.00 1901.90.90,17,REVOGADO,true
-17.046.04,1901.20.00 1901.90.90,17,"Misturas e preparações para bolos, em embalagem superior a 50 Kg",false
 17.046.05,1901.20 1901.90.90,46.5,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
 17.046.05,1901.20 1901.90.90,6,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
-17.046.05,1901.20.00 1901.90.90,46.5,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
-17.046.05,1901.20.00 1901.90.90,6,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
 17.046.05,1901.20.00 1901.90.90,18,REVOGADO,true
-17.046.05,1901.20.00 1901.90.90,18,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
 17.046.06,1901.20 1901.90.90,46.6,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
 17.046.06,1901.20 1901.90.90,7,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
-17.046.06,1901.20.00 1901.90.90,46.6,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
-17.046.06,1901.20.00 1901.90.90,7,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
 17.046.06,1901.20.00 1901.90.90,19,REVOGADO,true
-17.046.06,1901.20.00 1901.90.90,19,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
 17.046.07,1901.20 1901.90.90,46.7,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.07,1901.20 1901.90.90,8,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
-17.046.07,1901.20.00 1901.90.90,46.7,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
-17.046.07,1901.20.00 1901.90.90,8,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.07,1901.20.00 1901.90.90,20,REVOGADO,true
-17.046.07,1901.20.00 1901.90.90,20,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.08,1901.20 1901.90.90,46.8,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.08,1901.20 1901.90.90,9,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
-17.046.08,1901.20.00 1901.90.90,46.8,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
-17.046.08,1901.20.00 1901.90.90,9,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.08,1901.20.00 1901.90.90,21,REVOGADO,true
-17.046.08,1901.20.00 1901.90.90,21,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.09,1901.20 1901.90.90,46.9,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
 17.046.09,1901.20 1901.90.90,10,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
-17.046.09,1901.20.00 1901.90.90,46.9,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
-17.046.09,1901.20.00 1901.90.90,10,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
 17.046.09,1901.20.00 1901.90.90,22,REVOGADO,true
-17.046.09,1901.20.00 1901.90.90,22,"Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
 17.046.10,1901.20 1901.90.90,46.10,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
 17.046.10,1901.20 1901.90.90,11,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
-17.046.10,1901.20.00 1901.90.90,46.10,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
-17.046.10,1901.20.00 1901.90.90,11,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
 17.046.10,1901.20.00 1901.90.90,23,REVOGADO,true
-17.046.10,1901.20.00 1901.90.90,23,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg",false
 17.046.11,1901.20 1901.90.90,46.11,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
 17.046.11,1901.20 1901.90.90,12,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
-17.046.11,1901.20.00 1901.90.90,46.11,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
-17.046.11,1901.20.00 1901.90.90,12,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
 17.046.11,1901.20.00 1901.90.90,24,REVOGADO,true
-17.046.11,1901.20.00 1901.90.90,24,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg",false
 17.046.12,1901.20 1901.90.90,46.12,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.12,1901.20 1901.90.90,13,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
-17.046.12,1901.20.00 1901.90.90,46.12,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
-17.046.12,1901.20.00 1901.90.90,13,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.12,1901.20.00 1901.90.90,25,REVOGADO,true
-17.046.12,1901.20.00 1901.90.90,25,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg",false
 17.046.13,1901.20 1901.90.90,46.13,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.13,1901.20 1901.90.90,14,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
-17.046.13,1901.20.00 1901.90.90,46.13,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
-17.046.13,1901.20.00 1901.90.90,14,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.13,1901.20.00 1901.90.90,26,REVOGADO,true
-17.046.13,1901.20.00 1901.90.90,26,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg",false
 17.046.14,1901.20 1901.90.90,46.14,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
 17.046.14,1901.20 1901.90.90,15,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
-17.046.14,1901.20.00 1901.90.90,46.14,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
-17.046.14,1901.20.00 1901.90.90,15,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
 17.046.14,1901.20.00 1901.90.90,27,REVOGADO,true
-17.046.14,1901.20.00 1901.90.90,27,"Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg",false
 17.046.15,1901.20 1901.90.90,46.15,"Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14 e 17.046.16.",false
 17.046.15,1901.20 1901.90.90,50,"Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14 e 17.046.16.",false
-17.046.15,1901.20.00 1901.90.90,46.15,"Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14 e 17.046.16.",false
-17.046.15,1901.20.00 1901.90.90,46.15,"Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14 e 17.109.00",false
-17.046.15,1901.20.00 1901.90.90,50,"Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14 e 17.046.16.",false
-17.046.15,1901.20.00 1901.90.90,50,"Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14",false
 17.046.16,1901.20 1901.90.90,46.16,"Misturas e preparações com, no mínimo, 80% de farinha de trigo na sua composição final, exceto as descritas nos CEST 17.046.10 a 17.046.15.",false
 17.046.16,1901.20 1901.90.90,51,"Misturas e preparações com, no mínimo, 80% de farinha de trigo na sua composição final, exceto as descritas nos CEST 17.046.10 a 17.046.15.",false
-17.046.16,1901.20.00 1901.90.90,46.16,"Misturas e preparações com, no mínimo, 80% de farinha de trigo na sua composição final, exceto as descritas nos CEST 17.046.10 a 17.046.15.",false
-17.046.16,1901.20.00 1901.90.90,51,"Misturas e preparações com, no mínimo, 80% de farinha de trigo na sua composição final, exceto as descritas nos CEST 17.046.10 a 17.046.15.",false
 17.047.00,1902.30.00,47.0,"Massas alimentícias tipo instantânea, exceto as descritas no CEST 17047.01.",false
-17.047.00,1902.30.00,47.0,Massas alimentícias tipo instantânea,false
 17.047.00,1902.30.00,1,"Massas alimentícias tipo instantânea, exceto as descritas no CEST 17047.01.",false
-17.047.00,1902.30.00,1,Massas alimentícias tipo instantânea,false
 17.047.01,1902.30.00,47.1,"Massas alimentícias tipo instantânea, derivadas de farinha de trigo.",false
 17.047.01,1902.30.00,1.1,"Massas alimentícias tipo instantânea, derivadas de farinha de trigo.",false
 17.048.00,1902,48.0,"Massas alimentícias, cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo, exceto as descritas nos CEST 17.047.00, 17.048.01, e 17.048.02",false
@@ -944,51 +733,23 @@ cest,ncm,item,descricao,revogado
 17.048.02,1902.20.00,48.2,Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo),false
 17.048.02,1902.20.00,3,Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo),false
 17.049.00,1902.1,49.0,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, não derivadas do trigo",false
-17.049.00,1902.1,49.0,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto as descritas nos CEST 17.049.03 e 17.049.06",false
-17.049.00,1902.1,49.0,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.03",false
 17.049.00,1902.1,4,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, não derivadas do trigo",false
-17.049.00,1902.1,4,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto as descritas nos CEST 17.049.03 e 17.049.06",false
-17.049.00,1902.1,4,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.03",false
 17.049.01,1902.1,49.1,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, não derivadas do trigo",false
-17.049.01,1902.1,49.1,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto as descritas nos CEST 17.049.04 e 17.049.07",false
-17.049.01,1902.1,49.1,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.04",false
 17.049.01,1902.1,5,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, não derivadas do trigo",false
-17.049.01,1902.1,5,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto as descritas nos CEST 17.049.04 e 17.049.07",false
-17.049.01,1902.1,5,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.04",false
-17.049.02,1902.1,49.2,"Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.05",false
-17.049.02,1902.1,6,"Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.05",false
 17.049.02,1902.11.00,49.2,"Massas alimentícias do tipo grano duro, não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",false
 17.049.02,1902.11.00,6,"Massas alimentícias do tipo grano duro, não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",false
 17.049.03,1902.19.00,49.3,"Outras massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo",false
-17.049.03,1902.19.00,49.3,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo, exceto as descritas no CEST17.049.08",false
-17.049.03,1902.19.00,49.3,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
 17.049.03,1902.19.00,7,"Outras massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo",false
-17.049.03,1902.19.00,7,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo, exceto as descritas no CEST17.049.08",false
-17.049.03,1902.19.00,7,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
 17.049.04,1902.19.00,49.4,"Outras massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas do trigo",false
-17.049.04,1902.19.00,49.4,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo, exceto as descritas no CEST 17.049.09",false
-17.049.04,1902.19.00,49.4,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
 17.049.04,1902.19.00,8,"Outras massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas do trigo",false
-17.049.04,1902.19.00,8,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo, exceto as descritas no CEST 17.049.09",false
-17.049.04,1902.19.00,8,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
 17.049.05,1902.19.00,49.5,"Outras massas alimentícias do tipo grano duro, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
-17.049.05,1902.19.00,49.5,"Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
 17.049.05,1902.19.00,9,"Outras massas alimentícias do tipo grano duro, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
-17.049.05,1902.19.00,9,"Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos",false
-17.049.06,1902.1,49.6,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.03, derivadas de farinha de trigo",false
-17.049.06,1902.1,10,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.03, derivadas de farinha de trigo",false
 17.049.06,1902.11.00,49.6,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos, derivadas de farinha de trigo",false
 17.049.06,1902.11.00,10,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos, derivadas de farinha de trigo",false
-17.049.07,1902.1,49.7,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.04, derivadas de farinha de trigo",false
-17.049.07,1902.1,11,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.04, derivadas de farinha de trigo",false
 17.049.07,1902.11.00,49.7,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos, derivadas do trigo",false
 17.049.07,1902.11.00,11,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos, derivadas do trigo",false
-17.049.08,1902.19.00,49.8,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo",false
 17.049.08,1902.19.00,12,REVOGADO,true
-17.049.08,1902.19.00,12,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo",false
-17.049.09,1902.19.00,49.9,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo",false
 17.049.09,1902.19.00,13,REVOGADO,true
-17.049.09,1902.19.00,13,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos, derivadas de farinha de trigo",false
 17.050.00,1905.20,50.0,"Pães industrializados, inclusive de especiarias, exceto panetones e bolo de forma",false
 17.050.00,1905.20,28,"Pães industrializados, inclusive de especiarias, exceto panetones e bolo de forma",false
 17.051.00,1905.20.90,51.0,"Bolo de forma, inclusive de especiarias",false
@@ -1039,7 +800,6 @@ cest,ncm,item,descricao,revogado
 17.067.01,1509,67.1,"Azeites de oliva, em recipientes com capacidade igual ou superior a 2 litros e inferior ou igual a 5 litros",false
 17.067.02,1509,67.2,"Azeites de oliva, em recipientes com capacidade superior a 5 litros",false
 17.068.00,1510,68.0,"Outros óleos e respectivas frações, obtidos exclusivamente a partir de azeitonas, mesmo refinados, mas não quimicamente modificados, e misturas desses óleos ou frações com óleos ou frações da posição 15.09, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",false
-17.068.00,1510.00.00,68.0,"Outros óleos e respectivas frações, obtidos exclusivamente a partir de azeitonas, mesmo refinados, mas não quimicamente modificados, e misturas desses óleos ou frações com óleos ou frações da posição 15.09, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",false
 17.069.00,1512.19.11,69.0,"Óleo de girassol em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",false
 17.069.01,1512.29.10,69.1,"Óleo de algodão refinado em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",false
 17.070.00,1514.1,70.0,"Óleo de canola, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",false
@@ -1052,26 +812,17 @@ cest,ncm,item,descricao,revogado
 17.076.00,1601.00.00,1,"Enchidos (embutidos) e produtos semelhantes, de carne, miudezas ou sangue; exceto salsicha, linguiça e mortadela",false
 17.077.00,1601.00.00,77.0,"Salsicha e linguiça, exceto as descritas nos CEST 17.077.01",false
 17.077.00,1601.00.00,2,"Salsicha e linguiça, exceto as descritas nos CEST 17.077.01",false
-17.077.00,1601.00.00,2,Salsicha e lingüiça,false
 17.077.01,1601.00.00,77.1,Salsicha em lata,false
 17.077.01,1601.00.00,2.1,Salsicha em lata,false
 17.078.00,1601.00.00,78.0,Mortadela,false
 17.078.00,1601.00.00,3,Mortadela,false
-17.079.00,16.02,79.0,"Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06 e 17.079.07",false
 17.079.00,1602,79.0,"Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06, 17.079.07 e 17.079.08",false
 17.079.00,1602,4,"Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06 e 17.079.08",false
-17.079.00,1602,4,"Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06 e 17.079.07",false
-17.079.00,1602,4,"Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06",false
 17.079.01,1602.31.00,79.1,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de peruas e de perus, exceto as descritas no CEST 17.079.08",false
-17.079.01,1602.31.00,79.1,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de peruas e de perus.",false
 17.079.01,1602.31.00,5,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de peruas e de perus, exceto as descritas no CEST 17.079.08",false
-17.079.01,1602.31.00,5,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de peruas e de perus.",false
 17.079.02,1602.32.10,79.2,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, não cozidas, exceto as descritas no CEST 17.079.08",false
-17.079.02,1602.32.10,79.2,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, não cozidas",false
 17.079.02,1602.32.10,6,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, não cozidas, exceto as descritas no CEST 17.079.08",false
-17.079.02,1602.32.10,6,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, não cozidas",false
 17.079.03,1602.32.20,79.3,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, cozidas, exceto as descritas no CEST 17.079.08",false
-17.079.03,1602.32.20,79.3,"Outras preparações e conservas de carne, de miudezas ou de sangue, todas de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, cozidas",false
 17.079.03,1602.32.20,7,"Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, cozidas, exceto as descritas no CEST 17.079.08",false
 17.079.03,1602.32.20,7,"Outras preparações e conservas de carne, de miudezas ou de sangue, todas de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, cozidas",false
 17.079.04,1602.41.00,79.4,"Outras preparações e conservas de carne, de miudezas ou de sangue, da espécie suína: pernas e respectivos pedaços",false
@@ -1093,9 +844,7 @@ cest,ncm,item,descricao,revogado
 17.082.00,1605,82.0,"Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas",false
 17.082.00,1605,14,"Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas",false
 17.083.00,0210.20.00 0210.99.00 1502,83.0,"Carne de gado bovino, ovino e bufalino e produtos comestíveis resultantes da matança desse gado submetidos à salga, secagem ou desidratação, exceto os descritos no CEST 17.083.01",false
-17.083.00,0210.20.00 0210.99.00 1502,83.0,"Carne de gado bovino, ovino e bufalino e produtos comestíveis resultantes da matança desse gado submetidos à salga, secagem ou desidratação",false
 17.083.00,0210.20.00 0210.99.00 1502,15,"Carne de gado bovino, ovino e bufalino e produtos comestíveis resultantes da matança desse gado submetidos à salga, secagem ou desidratação, exceto os descritos no CEST 17.083.01",false
-17.083.00,0210.20.00 0210.99.00 1502,15,"Carne de gado bovino, ovino e bufalino e produtos comestíveis resultantes da matança desse gado submetidos à salga, secagem ou desidratação",false
 17.083.01,0210.20.00,83.1,Charque e jerkedbeef,false
 17.083.01,0210.20.00,15.1,Charque e jerkedbeef,false
 17.084.00,0201 0202 0204 0206,84.0,"Carne de gado bovino, ovino e bufalino e demais produtos comestíveis resultantes da matança desse gado frescos, refrigerados ou congelados",false
@@ -1109,9 +858,7 @@ cest,ncm,item,descricao,revogado
 17.087.01,0203 0206 0209 0210.1 0210.99.00 1501,87.1,"Carnes e demais produtos comestíveis frescos, resfriados, congelados, salgados, em salmoura, simplesmente temperados, secos ou defumados, resultantes do abate de suínos",false
 17.087.01,0203 0206 0209 0210.1 0210.99.00 1501,20,"Carnes e demais produtos comestíveis frescos, resfriados, congelados, salgados, em salmoura, simplesmente temperados, secos ou defumados, resultantes do abate de suínos",false
 17.087.02,0207.1 0207.2,87.2,Carnes de aves inteiras e com peso unitário superior a 3 kg,false
-17.087.02,0207.1 0207.2,87.2,"Carnes de aves inteiras e com peso unitário superior a 3 kg, temperadas",false
 17.087.02,0207.1 0207.2,21,Carnes de aves inteiras e com peso unitário superior a 3 kg,false
-17.087.02,0207.1 0207.2,21,"Carnes de aves inteiras e com peso unitário superior a 3 kg, temperadas",false
 17.088.00,0710,88.0,"Produtos hortícolas, cozidos em água ou vapor, congelados, em embalagens de conteúdo inferior ou igual a 1 kg",false
 17.088.00,0710,12,"Produtos hortícolas, cozidos em água ou vapor, congelados, em embalagens de conteúdo inferior ou igual a 1 kg",false
 17.088.01,0710,88.1,"Produtos hortícolas, cozidos em água ou vapor, congelados, em embalagens de conteúdo superior a 1 kg",false
@@ -1181,15 +928,12 @@ cest,ncm,item,descricao,revogado
 17.108.00,2101.20,108.0,"Extratos, essências e concentrados de chá ou de mate e preparações à base destes extratos, essências ou concentrados ou à base de chá ou de mate, em embalagens de conteúdo inferior ou igual a 500 g, exceto as bebidas prontas à base de mate ou chá e os itens classificados no CEST 17.108.01",false
 17.108.01,2101.20,108.1,"Extratos, essências e concentrados de chá ou de mate e preparações à base destes extratos, essências ou concentrados ou à base de chá ou de mate, em cápsulas",false
 17.109.00,1806.90.00 1901.90.90 2101.11.90 2101.12.00,109.0,"Preparações em pó para cappuccino e similares, em embalagens de conteúdo inferior ou igual a 500 g",false
-17.109.00,1901.90.90 2101.11.90 2101.12.00,109.0,"Preparações em pó para cappuccino e similares, em embalagens de conteúdo inferior ou igual a 500 g",false
 17.110.00,2202.10.00,110.0,"Refrescos e outras bebidas prontas para beber, à base de chá e mate",false
 17.110.00,2202.10.00,19,Refrescos e outras bebidas prontas para beber à base de chá e mate,false
 17.111.00,2202.10.00,111.0,"Refrescos e outras bebidas não alcoólicas, exceto os refrigerantes e as demais bebidas nos CEST 03.007.00 e 17.110.00",false
 17.111.00,2202.10.00,20,"Refrescos e outras bebidas não alcoólicas, exceto os refrigerantes e as demais bebidas nos CEST 03.007.00 e 17.110.00",false
 17.112.00,2202.99.00,112.0,"Néctares de frutas e outras bebidas não alcoólicas prontas para beber, exceto bebidas hidroeletrolíticas e energéticos",false
-17.112.00,2202.99.00,112.0,"Néctares de frutas e outras bebidas não alcoólicas prontas para beber, exceto isotônicos e energéticos",false
 17.112.00,2202.99.00,21.0,"Néctares de frutas e outras bebidas não alcoólicas prontas para beber, exceto bebidas hidroeletrolíticas e energéticos",false
-17.112.00,2202.99.00,21,"Néctares de frutas e outras bebidas não alcoólicas prontas para beber, exceto isotônicos e energéticos",false
 17.113.00,2101.20 2202.99.00,113.0,Bebidas prontas à base de mate ou chá,false
 17.113.00,2101.20 2202.99.00,22,Bebidas prontas à base de mate ou chá,false
 17.114.00,2202.99.00,114.0,Bebidas prontas à base de café,false
@@ -1199,8 +943,6 @@ cest,ncm,item,descricao,revogado
 17.116.00,008.13 009.09,116.0,"Sementes de anis (erva-doce), badiana (anis-estrelado), funcho, coentro, cominho ou alcaravia; bagas de zimbro; fruta seca, misturas de fruta seca ou de fruta de casa rija; quando acondicionadas em saquinhos, especialmente, para a preparação de infusões ou de tisanas (“chás”)",false
 17.116.00,008.13 00909,30,"Sementes de anis (erva-doce), badiana (anis-estrelado), funcho, coentro, cominho ou alcaravia; bagas de zimbro; fruta seca, misturas de fruta seca ou de fruta de casa rija; quando acondicionadas em saquinhos, especialmente, para a preparação de infusões ou de tisanas (“chás”)",false
 17.117.00,1806.20.00,117.0,"Outras preparações em blocos ou em barras, com peso superior a 2kg, ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo superior a 2kg",false
-17.117.00,1806.20.00,117.0,"Outras preparações em blocos ou em barras, com peso superior a 2kg, ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo superior a 2kg",false
-17.117.00,1806.20.00,13,"Outras preparações em blocos ou em barras, com peso superior a 2kg, ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo superior a 2kg",false
 17.117.00,1806.20.00,13,"Outras preparações em blocos ou em barras, com peso superior a 2kg, ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo superior a 2kg",false
 19.001.00,3213.10.00,1.0,Tinta guache,false
 19.002.00,3916.20.00,2.0,"Espiral - perfil para encadernação, de plástico e outros materiais classificados nas posições 3901 a 3914",false
@@ -1213,7 +955,6 @@ cest,ncm,item,descricao,revogado
 19.008.00,4802.54.9,8.0,Papel seda,false
 19.009.00,4802.54.99 4802.57.99 4816.20.00,9.0,"Bobina para máquina de calcular, PDV ou equipamentos similares",false
 19.010.00,4802.56.9 4802.57.9 4802.58.9,10.0,"Cartolina escolar e papel cartão, brancos e coloridos, cortados em folhas em que um lado seja inferior ou igual a 500 mm e o outro inferior ou igual a 700 mm, quando não dobradas, e peso igual ou superior a 120g/m²; recados autoadesivos (LP note); papéis de presente; todos cortados em tamanho pronto para uso escolar e doméstico",false
-19.010.00,4802.56.9 4802.57.9 4802.58.9,10.0,"Cartolina escolar e papel cartão, brancos e coloridos; recados auto adesivos (LP note); papéis de presente, todos cortados em tamanho pronto para uso escolar e doméstico",false
 19.011.00,3703.10.10 3703.10.29 3703.20.00 3703.90.10 3704.00.00 4802.20.00,11.0,"Papel fotográfico, exceto: (i) os papéis fotográficos emulsionados com haleto de prata tipo brilhante, matte ou lustre, em rolo e, com largura igual ou superior a 102 mm e comprimento inferior ou igual a 350 m, (ii) os papéis fotográficos emulsionados com haleto de prata tipo brilhante ou fosco, em folha e com largura igual ou superior a 152 mm e comprimento inferior ou igual a 307 mm, (iii) papel de qualidade fotográfica com tecnologia “Thermo-autochrome”, que submetido a um processo de aquecimento seja capaz de formar imagens por reação química e combinação das camadas cyan, magenta e amarela",false
 19.012.00,4810.13.90,12.0,Papel almaço,false
 19.013.00,4816.90.10,13.0,Papel hectográfico,false
@@ -1275,10 +1016,8 @@ cest,ncm,item,descricao,revogado
 20.032.01,3307.90.00,32.1,Outros produtos de toucador preparados,false
 20.033.00,3307.90.00,33.0,Soluções para lentes de contato ou para olhos artificiais,false
 20.034.00,3401.11.90,34.0,"Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 20.034.01",false
-20.034.00,3401.11.90,34.0,"Sabões de toucador em barras, pedaços ou figuras moldados",false
 20.034.01,3401.11.90,34.1,Lenços umedecidos,false
 20.035.00,3401.19.00,35.0,"Outros sabões, produtos e preparações, em barras, pedaços ou figuras moldados",false
-20.035.01,3401.19.00,35.1,Lenços umedecidos,false
 20.036.00,3401.20.10,36.0,Sabões de toucador sob outras formas,false
 20.037.00,3401.30.00,37.0,"Produtos e preparações orgânicos tensoativos para lavagem da pele, na forma de líquido ou de creme, acondicionados para venda a retalho, mesmo contendo sabão",false
 20.038.00,4014.90.10,38.0,Bolsa para gelo ou para água quente,false
@@ -1287,7 +1026,6 @@ cest,ncm,item,descricao,revogado
 20.041.00,4202.1,41.0,Malas e maletas de toucador,false
 20.042.00,4818.10.00,42.0,Papel higiênico - folha simples,false
 20.043.00,4818.10.00,43.0,"Papel higiênico - folha dupla, tripla e quádrupla",false
-20.043.00,4818.10.00,43.0,Papel higiênico - folha dupla e tripla,false
 20.044.00,4818.20.00,44.0,Lenços (incluídos os de maquilagem) e toalhas de mão,false
 20.045.00,4818.20.00,45.0,Papel toalha de uso institucional do tipo comercializado em rolos igual ou superior a 80 metros e do tipo comercializado em folhas intercaladas,false
 20.046.00,4818.30.00,46.0,Toalhas e guardanapos de mesa,false
@@ -1308,7 +1046,6 @@ cest,ncm,item,descricao,revogado
 20.060.00,9605.00.00,60.0,"Sortidos de viagem, para toucador de pessoas para costura ou para limpeza de calçado ou de roupas",false
 20.061.00,9615,61.0,"Pentes, travessas para cabelo e artigos semelhantes; grampos (alfinetes) para cabelo; pinças (pinceguiches), onduladores, bobes (rolos) e artefatos semelhantes para penteados, e suas partes, exceto os classificados na posição 8516 e suas partes",false
 20.062.00,9616.20.00,62.0,Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador,false
-20.063.00,3923.30.00 3924.90.00 3924.10.00 4014.90.90 7010.20.00,63.0,Mamadeiras,false
 20.063.00,3923.30.90 3924.10.00 3924.90.00 4014.90.90 7013,63.0,Mamadeiras,false
 20.064.00,8212.10.20 8212.20.10,64.0,Aparelhos e lâminas de barbear,false
 20.065.00,5601.21.10,65.0,"Algodão hidrófilo, não estéril, destinado à higiene pessoal.",false
@@ -1358,10 +1095,8 @@ cest,ncm,item,descricao,revogado
 21.044.00,8516.40.00,44.0,Ferros elétricos de passar,false
 21.045.00,8516.50.00,45.0,Fornos de micro-ondas,false
 21.046.00,8516.60.00,46.0,"Outros fornos; fogareiros (incluindo as chapas de cocção), grelhas e assadeiras, exceto os portáteis e os classificados no CEST 21.046.01",false
-21.046.00,8516.60.00,46.0,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, exceto os portáteis",false
 21.046.01,8516.60.00,46.1,"Fogões de cozinha, exceto os portáteis",false
 21.047.00,8516.60.00,47.0,"Outros fornos; fogareiros (incluindo as chapas de cocção), grelhas e assadeiras, portáteis, exceto os classificados no CEST 21.047.01",false
-21.047.00,8516.60.00,47.0,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, portáteis",false
 21.047.01,8516.60.00,47.1,Fogões portáteis de cozinha,false
 21.048.00,8516.71.00,48.0,Outros aparelhos eletrotérmicos de uso doméstico - Cafeteiras,false
 21.049.00,8516.72.00,49.0,Outros aparelhos eletrotérmicos de uso doméstico - Torradeiras,false
@@ -1369,17 +1104,11 @@ cest,ncm,item,descricao,revogado
 21.051.00,8516.90.00,51.0,"Partes das chaleiras, ferros, fornos e outros aparelhos eletrotérmicos da posição 85.16, descritos nos CEST 21.043.00, 21.044.00, 21.045.00, 21.046.00, 21.047.00, 21.048.00, 21.049.00 e 21.050.00",false
 21.051.01,8516.90.00,51.1,"Partes dos fogões de cozinha da posição 85.16, descritos nos CEST 21.046.01 e 21.047.01",false
 21.052.00,8517.11.00,52.0,Aparelhos telefônicos por fio com unidade auscultador - microfone sem fio,false
-21.053.00,8517.12.3,53.0,"Telefones para redes celulares, exceto por satélite, os de uso automotivo e os classificados no CEST 21.053.01",false
 21.053.00,8517.13.00 8517.14.3,53.0,"Telefones inteligentes (“smartphones”) e para redes celulares, excetos por satélite, os de uso automotivo e os classificados nos CEST 21.053.01",false
-21.053.01,8517.12.31,53.1,"Telefones para redes celulares portáteis, exceto por satélite",false
 21.053.01,8517.13.00 8517.14.31,53.1,"Telefones inteligentes (“smartphones”) e para redes celulares portáteis, excetos por satélite",false
-21.054.00,8517.12,54.0,"Outros telefones para outras redes sem fio, exceto para redes de celulares e os de uso automotivo",false
 21.054.00,8517.14,54.0,"Outros telefones para outras redes sem fio, excetos os de uso automotivo e os classificados nos CEST 21.053.00 e 21.053.01",false
 21.055.00,8517.18.30,55.0,Outros aparelhos telefônicos não combinados com outros aparelhos,false
-21.055.00,8517.18.91,55.0,Outros aparelhos telefônicos não combinados com outros aparelhos,false
 21.055.01,8517.18.90,55.1,Outros aparelhos telefônicos,false
-21.055.01,8517.18.99,55.1,Outros aparelhos telefônicos,false
-21.056.00,8517.62.5,56.0,"Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os classificados nos códigos 8517.62.51, 8517.62.52 e 8517.62.53",false
 21.056.00,8517.62.59,56.0,"Outros aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio.",false
 21.056.01,8517.62.54 8517.62.55,56.1,Distribuidores de conexões para rede (“hubs”) e moduladores/demoduladores (“modens”).,false
 21.057.00,8518,57.0,"Microfones e seus suportes; alto-falantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofrequência, aparelhos elétricos de amplificação de som; suas partes e acessórios; exceto os de uso automotivo",false
@@ -1389,18 +1118,12 @@ cest,ncm,item,descricao,revogado
 21.061.00,8521.90.90,61.0,"Outros aparelhos videofônicos de gravação ou reprodução, mesmo incorporando um receptor de sinais videofônicos, exceto os de uso automotivo",false
 21.062.00,8523.51.10,62.0,"Cartões de memória (""memorycards"")",false
 21.063.00,8523.52,63.0,"Cartões inteligentes (""smartcards""), exceto o item classificado no CEST 21.064.00",false
-21.063.00,8523.52.00,63.0,"Cartões inteligentes (""smartcards""), exceto o item classificado no CEST 21.064.00",false
-21.063.00,8523.52.00,63.0,"Cartões inteligentes (""smartcards"")",false
 21.064.00,8523.52,64.0,"Cartões inteligentes (""sim cards"")",false
-21.064.00,8523.52.00,64.0,"Cartões inteligentes (""sim cards"")",false
-21.065.00,8525.80.2,65.0,Câmeras fotográficas digitais e câmeras de vídeo e suas partes,false
 21.065.00,8525.89.2,65.0,Câmeras fotográficas digitais e câmeras de vídeo,false
 21.066.00,8527.9,66.0,"Outros aparelhos receptores para radiodifusão, mesmo combinados num invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, inclusive caixa acústica para Home Theaters classificados na posição 8518",false
-21.067.00,8528.49.29 8528.59.20 8528.69,67.0,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",false
 21.067.00,8528.49.90 8528.59.00 8528.69,67.0,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",false
 21.067.01,8528.62.00,67.1,Projetores capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina,false
 21.068.00,8528.52.00,68.0,"Outros monitores capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina, policromáticos",false
-21.068.00,8528.52.20,68.0,"Outros monitores capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina, policromáticos",false
 21.069.00,8528.7,69.0,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de raios catódicos)",false
 21.070.00,8528.7,70.0,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de LCD (Display de Cristal Líquido)",false
 21.071.00,8528.7,71.0,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma",false
@@ -1413,18 +1136,14 @@ cest,ncm,item,descricao,revogado
 21.078.00,9032.89.11,78.0,Reguladores de voltagem eletrônicos,false
 21.079.00,9504.50.00,79.0,"Consoles e máquinas de jogos de vídeo, exceto os classificados na subposição 9504.30",false
 21.080.00,8517.62.1,80.0,Multiplexadores e concentradores,false
-21.081.00,8517.62.22,81.0,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",false
 21.081.00,8517.62.29,81.0,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",false
 21.082.00,8517.62.39,82.0,Outros aparelhos para comutação,false
 21.083.00,8517.62.4,83.0,"Roteadores digitais, em redes com ou sem fio",false
 21.084.00,8517.62.62,84.0,Aparelhos emissores com receptor incorporado de tecnologia celular,false
-21.084.00,8517.62.62,84.0,"Aparelhos emissores com receptor incorporado de sistema troncalizado (“trunking”), de tecnologia celular",false
 21.085.00,8517.62.9,85.0,"Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento",false
-21.086.00,8517.70.21,86.0,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",false
 21.086.00,8517.71.10,86.0,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",false
 21.087.00,8214.90 8510,87.0,"Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, e suas partes",false
 21.088.00,8414.5,88.0,"Ventiladores, exceto os de uso agrícola e do CEST 21.088.01",false
-21.088.00,8414.5,88.0,"Ventiladores, exceto os de uso agrícola",false
 21.088.01,8414.59.10,88.1,Microventiladores com área de carcaça inferior a 90 cm²,false
 21.089.00,8414.59.90,89.0,Ventiladores de uso agrícola,false
 21.090.00,8414.60.00,90.0,Coifas com dimensão horizontal máxima não superior a 120 cm,false
@@ -1445,19 +1164,16 @@ cest,ncm,item,descricao,revogado
 21.104.00,8527,104.0,"Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na posição 8527.1, 8527.2 e 8527.9 que sejam de uso automotivo",false
 21.105.00,8479.60.00,105.0,Climatizadores de ar,false
 21.106.00,8415.90.90,106.0,"Outras partes para máquinas e aparelhos de ar-condicionado que contenham um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluindo as máquinas e aparelhos em que a umidade não seja regulável separadamente",false
-21.107.00,8525.80.19,107.0,Câmeras de televisão e suas partes,false
 21.107.00,8525.89.1,107.0,Câmeras de televisão,false
 21.108.00,8423.10.00,108.0,Balanças de uso doméstico,false
 21.109.00,8540,109.0,"Tubos e válvulas, eletrônicos, de cátodo quente, cátodo frio ou fotocátodo (por exemplo, tubos e válvulas, de vácuo, de vapor ou de gás, ampolas retificadoras de vapor de mercúrio, tubos catódicos, tubos e válvulas para câmeras de televisão)",false
 21.110.00,8517,110.0,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio, tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo, os classificados nos códigos NCM/SH 8517.62.51, 8517.62.52 e 8517.62.53 e no código CEST 21.127.00",false
-21.110.00,8517,110.0,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo e os classificados nos códigos 8517.62.51, 8517.62.52 e 8517.62.53",false
 21.111.00,8517,111.0,"Interfones, seus acessórios, tomadas e “plugs”",false
 21.112.00,8529,112.0,Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8525 a 8528; exceto as de uso automotivo,false
 21.113.00,8531,113.0,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio); exceto os de uso automotivo e os classificados nas posições 8531.10 e 8531.80.00.",false
 21.114.00,8531.10,114.0,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto os de uso automotivo",false
 21.115.00,8531.80.00,115.0,"Outros aparelhos de sinalização acústica ou visual, exceto os de uso automotivo",false
 21.116.00,8534.00,116.0,"Circuitos impressos, exceto os de uso automotivo",false
-21.117.00,8541.40.11 8541.40.21 8541.40.22,117.0,"Diodos emissores de luz (LED), exceto diodos “laser”",false
 21.117.00,8541.41.11 8541.41.21,117.0,"Diodos emissores de luz (LED), exceto diodos “laser”",false
 21.118.00,8543.70.92,118.0,Eletrificadores de cercas eletrônicos,false
 21.119.00,9030.3,119.0,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador; exceto os de uso automotivo",false
@@ -1465,23 +1181,16 @@ cest,ncm,item,descricao,revogado
 21.121.00,9107.00,121.0,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",false
 21.122.00,9405,122.0,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições, com exceção dos itens classificados nos CEST 21.123.00, 21.124.00 e 21.125.00",false
 21.123.00,9405.1 9405.9,123.0,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública; e suas partes",false
-21.123.00,9405.10 9405.9,123,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública; e suas partes",false
 21.124.00,9405.2 9405.9,124.0,"Abajures de cabeceiras, de escritório e lampadários de interior, elétricos e suas partes",false
-21.124.00,9405.20.00 9405.9,124,"Abajures de cabeceiras, de escritório e lampadários de interior, elétricos e suas partes",false
 21.125.00,9405.4 9405.9,125.0,"Outras luminárias e aparelhos de iluminação, elétricos, e suas partes",false
-21.125.00,9405.40 9405.9,125,Outros aparelhos elétricos de iluminação e suas partes,false
 21.126.00,8542.31.90,126,Microprocessador,false
 21.127.00,8517.62.77,127.0,"Aparelho emissor com receptor incorporado, digital, com tecnologias de transmissão/recepção sem fio, tela sensível ao toque “smartwatch”",false
 22.001.00,2309,1.0,Ração tipo “pet” para animais domésticos,false
 23.001.00,2105.00,1.0,Sorvetes de qualquer espécie,false
-23.002.00,1806 1901 2106,2.0,Preparados para fabricação de sorvete em máquina,false
 23.002.00,1806 1901 2106 0404,2.0,Preparados para fabricação de sorvete em máquina,false
 24.001.00,3208 3209 3210.00,1.0,"Tintas, vernizes",false
 24.002.00,2821 3204.17.00 3206,2.0,"Xadrez e pós assemelhados, em embalagem de conteúdo inferior ou igual a 1 kg, exceto pigmentos à base de dióxido de titânio classificados no código NCM 3206.11.10",false
-24.002.00,2821 3204.17.00 3206,2.0,"Xadrez e pós assemelhados, em embalagem de conteúdo inferior ou igual a 1 kg, exceto pigmentos à base de dióxido de titânio classificados no código 3206.11.19",false
-24.002.00,2821 3204.17.00 3206,2.0,"Xadrez e pós assemelhados, exceto pigmentos à base de dióxido de titânio classificados no código 3206.11.19",false
 24.002.01,2821 3204.17.00 3206,2.1,"Xadrez e pós assemelhados, em embalagem de conteúdo superior a 1 kg, exceto pigmentos à base de dióxido de titânio classificados no código NCM 3206.11.10",false
-24.002.01,2821 3204.17.00 3206,2.1,"Xadrez e pós assemelhados, em embalagem de conteúdo superior a 1 kg, exceto pigmentos à base de dióxido de titânio classificados no código NCM 3206.11.19",false
 24.003.00,3204 3205.00.00 3206 3212,3.0,"Corantes para aplicação em bases, tintas e vernizes",false
 25.001.00,8702.10.00,1.0,"Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, unicamente com motor de pistão, de ignição por compressão (diesel ou semidiesel), com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³",false
 25.002.00,8702.40.90,2.0,"Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, unicamente com motor elétrico para propulsão, com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³",false
@@ -1516,7 +1225,6 @@ cest,ncm,item,descricao,revogado
 25.031.00,8704.51.00,31.0,"Outros veículos para transportes de mercadorias equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico de peso em carga máxima (bruto) não superior a 5 toneladas, exceto caminhão de peso em carga máxima superior a 3,9 toneladas",false
 25.032.00,8704.60.00,32.0,"Outros veículos para transporte de mercadorias, unicamente com motor elétrico para propulsão, exceto veículo de peso em carga máxima superior a 3,9 toneladas",false
 26.001.00,8711,1.0,"Motocicletas (incluídos os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral, exceto os classificados no CEST 26.001.01; carros laterais.",false
-26.001.00,8711,1.0,"Motocicletas (incluídos os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral; carros laterais",false
 26.001.01,8711,1.1,Bicicletas e outros ciclos (incluídos os triciclos) com propulsão de motor elétrico auxiliar assistido pela força humana.,false
 28.001.00,3303.00.10,1.0,Perfumes (extratos),false
 28.002.00,3303.00.20,2.0,Águas-de-colônia,false
@@ -1534,17 +1242,14 @@ cest,ncm,item,descricao,revogado
 28.014.00,3305.90.00,14.0,Tintura para o cabelo,false
 28.015.00,3307.10.00,15.0,"Preparações para barbear (antes, durante ou após)",false
 28.016.00,3307.20.10,16.0,"Desodorantes (desodorizantes) corporais líquidos, exceto os classificados no CEST 28.016.01",false
-28.016.00,3307.20.10,16.0,"Desodorantes corporais e antiperspirantes, líquidos",false
 28.016.01,3307.20.10,16.1,Loções e óleos desodorantes hidratantes líquidos,false
 28.016.02,3307.20.10,16.2,Antiperspirantes líquidos,false
 28.017.00,3307.20.90,17.0,"Outros desodorantes (desodorizantes) corporais, exceto os classificados no CEST 28.017.01",false
-28.017.00,3307.20.90,17.0,Outros desodorantes corporais e antiperspirantes,false
 28.017.01,3307.20.90,17.1,Outras loções e óleos desodorantes hidratantes,false
 28.017.02,3307.20.90,17.2,Outros antiperspirantes,false
 28.018.00,3307.90.00,18.0,Outros produtos de perfumaria ou de toucador preparados,false
 28.019.00,3307.90.00,19.0,Outras preparações cosméticas,false
 28.020.00,3401.11.90,20.0,"Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 28.020.01",false
-28.020.00,3401.11.90,20.0,"Sabões de toucador, em barras, pedaços ou figuras moldadas",false
 28.020.01,3401.11.90,20.1,Lenços umedecidos,false
 28.021.00,3401.19.00,21.0,"Outros sabões, produtos e preparações orgânicos tensoativos, inclusive papel, pastas (ouates), feltros e falsos tecidos, impregnados, revestidos ou recobertos de sabão ou de detergentes",false
 28.022.00,3401.20.10,22.0,Sabões de toucador sob outras formas,false
@@ -1563,7 +1268,6 @@ cest,ncm,item,descricao,revogado
 28.030.00,9616.20.00,30.0,Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador,false
 28.031.00,4202.1,31.0,Malas e maletas de toucador,false
 28.032.00,9615,32.0,"Pentes, travessas para cabelo e artigos semelhantes; grampos (alfinetes) para cabelo; pinças (“pinceguiches”), onduladores, bobs (rolos) e artefatos semelhantes para penteados, e suas partes",false
-28.033.00,3923.30.00 3924.90.00 3924.10.00 4014.90.90 7010.20.00,33.0,Mamadeiras,false
 28.033.00,3923.30.90 3924.10.00 3924.90.00 4014.90.90 7013,33.0,Mamadeiras,false
 28.034.00,4014.90.90,34.0,Chupetas e bicos para mamadeiras e para chupetas,false
 28.035.00,1211.90.90,35.0,"Outras plantas e partes, para perfumaria, medicina e semelhantes",false

@@ -28,8 +28,13 @@ jobs:
           cache: npm
       - run: npm ci
 
+      # O CONFAZ só aceita conexão do Brasil; o pedido passa pelo proxy em
+      # São Paulo (pasta proxy/). Sem as duas variáveis, vai direto e falha.
       - name: Capturar
         run: npm run capturar
+        env:
+          PROXY_BRASIL_URL: ${{ vars.PROXY_BRASIL_URL }}
+          PROXY_BRASIL_CHAVE: ${{ secrets.PROXY_BRASIL_CHAVE }}
 
       - name: Commit do que mudou
         run: |

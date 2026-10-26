@@ -5,7 +5,8 @@
  * O convênio traz um quadro de segmentos e uma tabela por anexo (item, CEST,
  * NCM, descrição). O mesmo CEST aparece em várias linhas quando vale para
  * mais de uma NCM, então a chave de cada linha é CEST + NCM. Item revogado
- * fica na tabela com a marca, porque a revogação também é informação.
+ * fica na tabela com a marca, porque a revogação também é informação; a
+ * redação anterior de um item alterado, não.
  */
 
 import { load } from "cheerio";
@@ -29,6 +30,9 @@ export function cestParaCsv(html: string): TabelaCest {
 
   for (const tabela of $("table").toArray()) {
     for (const tr of $(tabela).find("tr").toArray()) {
+      // Redação anterior de um item (classe "…verde"): fica no convênio para
+      // consulta, mas não é CEST vigente.
+      if ($(tr).find("[class*=verde], [class*=RedacaoAnt]").length) continue;
       const celulas = $(tr).find("td").toArray().map((td) => limpo($(td).text()));
       const i = celulas.findIndex((c) => CODIGO_CEST.test(c));
       if (i >= 0) {

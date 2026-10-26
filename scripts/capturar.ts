@@ -14,14 +14,16 @@
  * captura segue. O processo termina com erro só se todas falharem.
  */
 
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { gunzipSync } from "node:zlib";
 
 import { cestParaCsv } from "../src/cest.ts";
+import { confazParaMarkdown, paginasDoSitemap, SECOES, type PaginaConfaz, type Secao } from "../src/confaz.ts";
 import { lerQuadroLcp, quadroParaCsv, type LeiComplementar } from "../src/descoberta.ts";
 import { descrever, diferencaDeTabela, diferencaDeTexto } from "../src/diferenca.ts";
 import { baixar, sha256 } from "../src/fonte.ts";
-import { gravarSeMudou, json, lerSeExiste } from "../src/gravar.ts";
+import { csv, gravarSeMudou, json, lerCsv, lerSeExiste } from "../src/gravar.ts";
 import { ibsCbsParaArquivos } from "../src/ibs-cbs.ts";
 import { ncmParaCsv } from "../src/ncm.ts";
 import { planaltoParaMarkdown } from "../src/planalto.ts";
@@ -44,6 +46,7 @@ const FONTES = {
   ibsCbs: "https://dfe-portal.svrs.rs.gov.br/CFF/ClassificacaoTributaria",
   tipi: "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.xlsx",
   cest: "https://www.confaz.fazenda.gov.br/legislacao/convenios/2018/CV142_18",
+  sitemapConfaz: "https://www.confaz.fazenda.gov.br/sitemap.xml.gz",
   quadroLcp: "https://www.planalto.gov.br/ccivil_03/leis/lcp/quadro_lcp.htm",
 };
 
@@ -134,6 +137,117 @@ async function capturarCest() {
   resumo.push(antes ? `CEST: ${descrever(diferencaDeTabela(antes, t.cest, 2), "linha")}` : `CEST: primeira captura (${t.totais.codigos} códigos)`);
 }
 
+/**
+ * Convênios, protocolos e ajustes SINIEF: um arquivo por ato, mais um índice.
+ *
+ * São mais de 11 mil páginas, e baixar todas todo dia seria abuso com o site.
+ * O sitemap traz a data da última alteração de cada página; o índice guarda a
+ * data da versão capturada, e só é baixado de novo o que mudou desde então.
+ * As páginas do sitemap que não são ato (índices, avisos) ficam em
+ * `fora.csv`, para não serem baixadas de novo a cada dia.
+ */
+async function capturarConfaz() {
+  const fonte = await baixar(FONTES.sitemapConfaz);
+  const xml = (fonte.bytes[0] === 0x1f && fonte.bytes[1] === 0x8b ? gunzipSync(fonte.bytes) : Buffer.from(fonte.bytes)).toString("utf8");
+  const paginas = paginasDoSitemap(xml);
+
+  const pasta = join("normas", "confaz");
+  type Registro = PaginaConfaz & { titulo: string; ementa: string };
+  const indice = new Map<string, Registro>(
+    lerCsv(lerSeExiste(join(pasta, "indice.csv"))).map((r) => [
+      r.url,
+      { url: r.url, secao: r.secao as Secao, ano: r.ano, arquivo: r.arquivo, alteradoEm: r.alterado_em, titulo: r.titulo, ementa: r.ementa },
+    ])
+  );
+  const fora = new Map(lerCsv(lerSeExiste(join(pasta, "fora.csv"))).map((r) => [r.url, r.alterado_em]));
+
+  // Um sitemap pela metade apagaria metade do acervo na comparação abaixo.
+  if (paginas.length < 0.9 * (indice.size + fora.size)) {
+    throw new Error(`sitemap do CONFAZ com ${paginas.length} páginas, contra ${indice.size + fora.size} conhecidas: incompleto?`);
+  }
+
+  const pendentes = paginas.filter((p) => (indice.get(p.url)?.alteradoEm ?? fora.get(p.url)) !== p.alteradoEm);
+  const limite = Number(process.env.CONFAZ_LIMITE ?? Infinity);
+  const fila = pendentes.slice(0, limite);
+  const novos: string[] = [];
+  const alterados: string[] = [];
+  const erros: string[] = [];
+  let feitos = 0;
+
+  // Quatro por vez: a carga inicial leva minutos em vez de horas, e o site aguenta.
+  const trabalhar = async () => {
+    for (let p = fila.shift(); p; p = fila.shift()) {
+      try {
+        // Página que não vem em 30 s está presa; fica para a próxima captura.
+        const pagina = await baixar(p.url, 2, 30_000);
+        const ato = confazParaMarkdown(pagina.texto, p.url);
+        if (!ato) {
+          fora.set(p.url, p.alteradoEm);
+          indice.delete(p.url);
+        } else {
+          const antes = lerSeExiste(p.arquivo);
+          if (gravarSeMudou(p.arquivo, ato.markdown)) (antes ? alterados : novos).push(ato.titulo);
+          indice.set(p.url, { ...p, titulo: ato.titulo, ementa: ato.ementa });
+          fora.delete(p.url);
+        }
+      } catch (e) {
+        // Fica com a data antiga no índice, e a próxima captura tenta de novo.
+        erros.push(`${p.url}: ${e instanceof Error ? e.message : String(e)}`);
+      }
+      if (++feitos % 250 === 0) {
+        // A carga inicial leva quase uma hora; se cair no meio, o que já veio fica.
+        gravarIndices();
+        console.log(`       confaz: ${feitos}/${Math.min(pendentes.length, limite)}`);
+      }
+    }
+  };
+  const gravarIndices = () => {
+    const registros = [...indice.values()].sort((a, b) => a.arquivo.localeCompare(b.arquivo));
+    const mudouIndice = gravarSeMudou(
+      join(pasta, "indice.csv"),
+      csv(
+        ["secao", "ano", "titulo", "ementa", "arquivo", "url", "alterado_em"],
+        registros.map((r) => [r.secao, r.ano, r.titulo, r.ementa, r.arquivo, r.url, r.alteradoEm])
+      )
+    );
+    const mudouFora = gravarSeMudou(
+      join(pasta, "fora.csv"),
+      csv(["url", "alterado_em"], [...fora].sort(([a], [b]) => a.localeCompare(b)))
+    );
+    return { registros, mudou: mudouIndice || mudouFora };
+  };
+  await Promise.all(Array.from({ length: 4 }, trabalhar));
+
+  const noSitemap = new Set(paginas.map((p) => p.url));
+  const removidos: string[] = [];
+  for (const [url, r] of indice) {
+    if (noSitemap.has(url)) continue;
+    rmSync(r.arquivo, { force: true });
+    indice.delete(url);
+    removidos.push(r.titulo);
+  }
+  for (const url of fora.keys()) if (!noSitemap.has(url)) fora.delete(url);
+
+  const { registros, mudou } = gravarIndices();
+  if (mudou || removidos.length || novos.length || alterados.length) {
+    const porSecao = Object.fromEntries(Object.keys(SECOES).map((s) => [s, registros.filter((r) => r.secao === s).length]));
+    gravarSeMudou(join(pasta, "metadados.json"), json({ fonte: FONTES.sitemapConfaz, atos: registros.length, ...porSecao, capturadoEm: agora() }));
+  }
+
+  const nomes = (lista: string[]) => (lista.length <= 3 ? `: ${lista.join(", ")}` : "");
+  const partes = [
+    novos.length && `${novos.length} ato(s) novo(s)${nomes(novos)}`,
+    alterados.length && `${alterados.length} alterado(s)${nomes(alterados)}`,
+    removidos.length && `${removidos.length} removido(s)`,
+  ].filter(Boolean);
+  if (partes.length) resumo.push(`CONFAZ: ${partes.join(", ")}`);
+  if (pendentes.length > feitos) console.log(`       confaz: ${pendentes.length - feitos} página(s) ficaram para a próxima captura`);
+  if (erros.length) {
+    falhas.push(`confaz: ${erros.length} página(s) não baixaram (a primeira: ${erros[0]})`);
+    console.error(`       confaz: ${erros.length} página(s) não baixaram`);
+  }
+}
+
 async function descobrirLeisComplementares() {
   const fonte = await baixar(FONTES.quadroLcp);
   const leis = lerQuadroLcp(fonte.texto);
@@ -167,21 +281,22 @@ async function tentar(nome: string, passo: () => Promise<void>) {
 }
 
 async function main() {
-  // Com ids na linha de comando, só essas normas: é como uma norma nova entra
-  // no catálogo sem baixar as tabelas e as outras normas de novo.
+  const todos: [string, () => Promise<void>][] = [
+    ...normas.map((n): [string, () => Promise<void>] => [n.id, () => capturarNorma(n)]),
+    ["ncm", capturarNcm],
+    ["ibs-cbs", capturarIbsCbs],
+    ["tipi", capturarTipi],
+    ["cest", capturarCest],
+    ["confaz", capturarConfaz],
+    ["quadro-lcp", descobrirLeisComplementares],
+  ];
+  // Com nomes na linha de comando (`npm run capturar -- lc-116-2003 confaz`),
+  // só esses passos: é como uma norma nova entra no catálogo, ou uma fonte é
+  // recapturada, sem baixar todo o resto de novo.
   const pedidas = process.argv.slice(2);
-  const desconhecidas = pedidas.filter((id) => !normas.some((n) => n.id === id));
-  if (desconhecidas.length) throw new Error(`Norma fora do normas.json: ${desconhecidas.join(", ")}`);
-  const passos: [string, () => Promise<void>][] = pedidas.length
-    ? normas.filter((n) => pedidas.includes(n.id)).map((n) => [n.id, () => capturarNorma(n)])
-    : [
-        ...normas.map((n): [string, () => Promise<void>] => [n.id, () => capturarNorma(n)]),
-        ["ncm", capturarNcm],
-        ["ibs-cbs", capturarIbsCbs],
-        ["tipi", capturarTipi],
-        ["cest", capturarCest],
-        ["quadro-lcp", descobrirLeisComplementares],
-      ];
+  const desconhecidas = pedidas.filter((nome) => !todos.some(([n]) => n === nome));
+  if (desconhecidas.length) throw new Error(`Passo desconhecido (nem norma do normas.json, nem fonte): ${desconhecidas.join(", ")}`);
+  const passos = pedidas.length ? todos.filter(([nome]) => pedidas.includes(nome)) : todos;
   // Uma fonte por vez: são sites públicos, e ninguém precisa da captura em segundos.
   for (const [nome, passo] of passos) await tentar(nome, passo);
 

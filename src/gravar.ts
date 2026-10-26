@@ -45,3 +45,30 @@ export function csv(cabecalho: string[], linhas: (string | number | boolean | nu
   };
   return [cabecalho, ...linhas].map((l) => l.map(campo).join(",")).join("\n") + "\n";
 }
+
+/** Lê de volta um CSV gerado por `csv()`: uma linha por registro, aspas dobradas. */
+export function lerCsv(texto: string | null): Record<string, string>[] {
+  const campos = (l: string) => {
+    const saida: string[] = [];
+    let i = 0;
+    while (i <= l.length) {
+      if (l[i] === '"') {
+        let valor = "";
+        for (i++; i < l.length; i++) {
+          if (l[i] === '"' && l[i + 1] === '"') valor += l[i++];
+          else if (l[i] === '"') break;
+          else valor += l[i];
+        }
+        saida.push(valor);
+        i += 2; // aspas de fechamento e vírgula
+      } else {
+        const fim = l.indexOf(",", i);
+        saida.push(l.slice(i, fim < 0 ? l.length : fim));
+        i = fim < 0 ? l.length + 1 : fim + 1;
+      }
+    }
+    return saida;
+  };
+  const [cabecalho, ...resto] = (texto ?? "").split("\n").filter(Boolean).map(campos);
+  return resto.map((l) => Object.fromEntries((cabecalho ?? []).map((c, i) => [c, l[i] ?? ""])));
+}

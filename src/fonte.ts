@@ -42,16 +42,52 @@ export function decodificar(contentType: string | null, bytes: Uint8Array): stri
   return texto.charCodeAt(0) === 0xfeff ? texto.slice(1) : texto;
 }
 
-export async function baixar(url: string, tentativas = 3): Promise<Baixado> {
+/**
+ * Hosts que só aceitam conexão do Brasil. O CONFAZ descarta quem chega de
+ * fora (tempo de conexão esgotado), e o GitHub Actions roda nos EUA. Com
+ * `PROXY_BRASIL_URL` definido, o pedido passa pelo proxy em São Paulo
+ * (`proxy/`); sem ele — rodando do Brasil —, vai direto.
+ */
+const SO_DO_BRASIL = new Set(["www.confaz.fazenda.gov.br"]);
+
+export function pedido(url: string): [string, Record<string, string>] {
+  const cabecalhos = { "user-agent": AGENTE, accept: "*/*" };
+  const proxy = process.env.PROXY_BRASIL_URL;
+  if (!proxy || !SO_DO_BRASIL.has(new URL(url).hostname)) return [url, cabecalhos];
+  return [`${proxy}?url=${encodeURIComponent(url)}`, { ...cabecalhos, "x-chave": process.env.PROXY_BRASIL_CHAVE ?? "" }];
+}
+
+async function umaVez(endereco: string, headers: Record<string, string>, url: string, tempoLimite: number): Promise<Baixado> {
+  const controle = new AbortController();
+  let relogio: NodeJS.Timeout | undefined;
+  // O abort sozinho não bastou: na carga do CONFAZ, conexões ficaram paradas
+  // minutos depois do prazo. A corrida garante que a captura siga adiante.
+  const prazo = new Promise<never>((_, rejeitar) => {
+    relogio = setTimeout(() => {
+      const erro = new Error(`tempo esgotado (${tempoLimite / 1000} s) em ${url}`);
+      controle.abort(erro);
+      rejeitar(erro);
+    }, tempoLimite);
+  });
+  const busca = (async () => {
+    const resp = await fetch(endereco, { headers, signal: controle.signal });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} em ${url}`);
+    const bytes = new Uint8Array(await resp.arrayBuffer());
+    return { texto: decodificar(resp.headers.get("content-type"), bytes), bytes, sha256: sha256(bytes) };
+  })();
+  try {
+    return await Promise.race([busca, prazo]);
+  } finally {
+    clearTimeout(relogio);
+    busca.catch(() => {});
+  }
+}
+
+export async function baixar(url: string, tentativas = 3, tempoLimite = 90_000): Promise<Baixado> {
+  const [endereco, headers] = pedido(url);
   for (let i = 1; ; i++) {
     try {
-      const resp = await fetch(url, {
-        headers: { "user-agent": AGENTE, accept: "*/*" },
-        signal: AbortSignal.timeout(90_000),
-      });
-      if (!resp.ok) throw new Error(`HTTP ${resp.status} em ${url}`);
-      const bytes = new Uint8Array(await resp.arrayBuffer());
-      return { texto: decodificar(resp.headers.get("content-type"), bytes), bytes, sha256: sha256(bytes) };
+      return await umaVez(endereco, headers, url, tempoLimite);
     } catch (e) {
       if (i >= tentativas) {
         // "fetch failed" sozinho não diz nada; a causa (timeout, conexão

@@ -30,11 +30,19 @@ Tudo aqui é público: texto de lei não tem direito autoral no Brasil (Lei 9.61
 |---|---|---|
 | [`tabelas/ncm/ncm.csv`](tabelas/ncm/ncm.csv) | NCM vigente: 15.157 códigos, com vigência e ato legal de cada um | Portal Único Siscomex |
 | [`tabelas/tipi/tipi.csv`](tabelas/tipi/tipi.csv) | TIPI: alíquota de IPI por NCM e exceção (15.563 linhas) | Receita Federal |
-| [`tabelas/cest/cest.csv`](tabelas/cest/cest.csv) | CEST: 1.054 códigos da substituição tributária do ICMS, com as NCM de cada um, e os [25 segmentos](tabelas/cest/segmentos.csv) | CONFAZ (Convênio ICMS 142/2018) |
+| [`tabelas/cest/cest.csv`](tabelas/cest/cest.csv) | CEST: 1.053 códigos vigentes da substituição tributária do ICMS, com as NCM de cada um, e os [25 segmentos](tabelas/cest/segmentos.csv) | CONFAZ (Convênio ICMS 142/2018) |
 | [`tabelas/ibs-cbs/cst.csv`](tabelas/ibs-cbs/cst.csv) | CST do IBS e da CBS | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-tributaria.csv`](tabelas/ibs-cbs/classificacao-tributaria.csv) | Os 173 códigos de classificação tributária (cClassTrib), com redução de IBS e CBS, documentos em que valem e o artigo da lei | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-por-ncm-nbs.csv`](tabelas/ibs-cbs/classificacao-por-ncm-nbs.csv) | Qual cClassTrib vale para cada NCM ou NBS (4.728 vínculos), com o item do anexo, condição e exceção | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-tributaria.json`](tabelas/ibs-cbs/classificacao-tributaria.json) | A tabela completa, com todos os campos do portal | SVRS (Conformidade Fácil) |
+
+**Atos do CONFAZ** (texto compilado, em [`normas/confaz/`](normas/confaz)): todos os convênios, protocolos e ajustes SINIEF publicados no site do CONFAZ, de 1966 até hoje, um arquivo por ato. O [`indice.csv`](normas/confaz/indice.csv) lista cada um com título, ementa, arquivo e link da fonte.
+
+| Tipo | Atos | O que é |
+|---|---:|---|
+| [Convênios](normas/confaz/convenios) | 6.902 | Convênios ICM e ICMS entre todos os estados: benefícios fiscais, substituição tributária, regras nacionais do ICMS |
+| [Protocolos](normas/confaz/protocolos) | 3.284 | Acordos entre alguns estados, a maioria de substituição tributária nas operações interestaduais |
+| [Ajustes SINIEF](normas/confaz/ajustes) | 866 | Documentos e livros fiscais: NF-e, CT-e, EFD, MDF-e e afins |
 
 **Novidades:** [`novidades/leis-complementares.csv`](novidades/leis-complementares.csv) lista todas as leis complementares federais, com a ementa e duas marcas: se a ementa é tributária e se a lei já está no catálogo.
 
@@ -71,11 +79,31 @@ II - no caso de empresa de pequeno porte, aufira (…) receita bruta (…) igual
 - Os links do Planalto saem, e o texto deles fica.
 - Para ter só o texto vigente, basta ignorar o que está entre `~~`.
 
+### Atos do CONFAZ
+
+O CONFAZ segue a mesma lógica com outra marcação: a redação nova vem primeiro, e a antiga logo abaixo, precedida de uma remissão que diz de quando a quando ela valeu. A remissão fica como texto, e a redação antiga é riscada:
+
+```markdown
+Nova redação dada ao § 2º da cláusula décima terceira pelo Conv. ICMS 123/24, efeitos a partir de 01.11.24.
+
+§ 2º Para efeitos do disposto nesta cláusula (…) nos termos do Convênio ICMS nº 109, de 3 de outubro de 2024.
+
+Redação anterior acrescida do §2º à cláusula décima terceira pelo Conv. ICMS 225/23, efeitos de 01.01.24 a 31.10.24
+
+~~§ 2º Para efeitos do disposto nesta cláusula (…) nos termos da cláusula quarta do Convênio ICMS nº 178, de 1º de dezembro de 2023.~~
+```
+
+As tabelas dos anexos (como as do CEST no Convênio ICMS 142/18) viram tabelas do Markdown, uma linha por item, também com a redação antiga riscada. As páginas anteriores a 2010 marcam a redação antiga com cor em vez de classe, e o conversor entende as duas formas.
+
 ## Captura diária
 
 O workflow [`capturar.yml`](.github/workflows/capturar.yml) roda todo dia às 6h (Brasília) e baixa tudo de novo. Quando uma fonte muda, ele faz um commit com o resumo na mensagem (`captura: LC 214/2025: +12 −3 parágrafos; NCM (Resolução Gecex nº …): 4 código novo(s)`); quando nada muda, não há commit. Para acompanhar mudanças, basta olhar o [histórico](https://github.com/Matheuscfs/legislacao-tributaria/commits/main) ou dar *watch* no repositório.
 
 Nenhum arquivo de dado guarda a data da captura no corpo. Se guardasse, haveria um commit por dia sem a lei ter mudado.
+
+Os atos do CONFAZ são mais de 11 mil páginas, e baixar todas todo dia seria abuso com o site. O [sitemap](https://www.confaz.fazenda.gov.br/sitemap.xml.gz) do CONFAZ traz a data da última alteração de cada página, e o `indice.csv` guarda a data da versão capturada: a captura diária só baixa o que mudou desde então.
+
+O site do CONFAZ não aceita conexão de fora do Brasil, e os servidores do GitHub Actions ficam nos EUA. Por isso a captura passa por um proxy mínimo em São Paulo ([`proxy/`](proxy), uma função da Vercel na região `gru1`), que só busca no CONFAZ e só para quem tem a chave. Rodando do Brasil, a captura vai direto e o proxy não é usado.
 
 ### Leis novas
 
@@ -95,8 +123,9 @@ Ou clone e rode a captura você mesmo:
 
 ```bash
 npm install
-npm run capturar   # baixa tudo das fontes e grava só o que mudou
-npm test           # 32 testes, sem acesso à internet
+npm run capturar              # baixa tudo das fontes e grava só o que mudou
+npm run capturar -- confaz    # só uma fonte (ncm, tipi, cest, confaz…)
+npm test                      # 41 testes, sem acesso à internet
 ```
 
 Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [`normas.json`](normas.json) com a URL do Planalto e capture só ela, sem baixar as tabelas de novo: `npm run capturar -- lc-116-2003`.
@@ -106,19 +135,21 @@ Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [
 - **Não é fonte oficial.** É uma cópia fiel e datada das fontes oficiais; para efeito legal, vale o publicado no Diário Oficial da União.
 - **Tabelas dentro do texto da lei.** No HTML do Planalto, as tabelas dos anexos (como as alíquotas do Simples) vêm com uma célula por parágrafo, e é assim que ficam no Markdown: legíveis e comparáveis, mas não em formato de tabela.
 - **Descoberta só de leis complementares.** O Diário Oficial e o LexML respondem a acesso automatizado com bloqueio ou verificação anti-robô, e este repositório não tenta contornar isso. Leis ordinárias, decretos e instruções normativas novas ainda entram à mão, pelo `normas.json`.
-- **Só normas do Planalto.** O conversor entende o HTML do Planalto. Resoluções do CGSN (no site de normas da Receita, que só funciona com JavaScript) e regulamentos estaduais como o RICMS/PR têm outro formato e ainda não entram.
-- **CEST não atualiza sozinho.** O site do CONFAZ não aceita conexão dos servidores do GitHub Actions (tempo de conexão esgotado), embora responda normalmente de dentro do Brasil. A tabela do CEST é atualizada quando alguém roda `npm run capturar` a partir do Brasil; na captura diária, a falha aparece no resumo da execução e as outras fontes seguem normalmente.
+- **Só Planalto e CONFAZ.** Os conversores entendem o HTML do Planalto e o do CONFAZ. Os atos da Receita Federal e as resoluções do CGSN (no Sijut, o sistema de normas da Receita) e os regulamentos estaduais como o RICMS/PR têm outro formato e ainda não entram.
+- **Páginas antigas do CONFAZ.** Nas páginas anteriores a 2010, uma nota de alteração às vezes fica partida em dois parágrafos (o texto e o número do convênio, que no original é um link separado). O texto está todo lá; só a quebra é do HTML de origem.
+- **Redação antiga sem marca na fonte.** Em cerca de 5% das remissões do CONFAZ ("Redação anterior…", "Redação original…"), a própria página marca a redação antiga com a mesma classe da remissão, ou não marca. Nesses casos ela fica no arquivo sem `~~`. Alguns atos também estão incompletos no site (o Protocolo ICMS 84/07 traz só o cabeçalho), e o arquivo reproduz o que a fonte tem.
 - **Notas da TIPI e do CEST ficam de fora.** As notas de seção e de capítulo da TIPI e as notas de revogação do CEST ficam de fora; entram só as linhas de produto.
 
 ## Próximos passos
 
-- Resoluções do CGSN e o RICMS/PR, com conversores próprios.
+- Atos da Receita Federal pelo Sijut (instruções normativas, soluções de consulta, atos declaratórios) e as resoluções do CGSN.
+- O RICMS/PR, com conversor próprio.
 - NBS completa e as tabelas de alíquota do ICMS por estado.
 - Consumo pelo [gestao-de-contabilidade](https://github.com/Matheuscfs/gestao-de-contabilidade): os artigos daqui viram a base do RAG que cita a lei ao sugerir uma classificação.
 
 ## In English
 
-Brazilian tax laws (the Constitution's tax reform amendment, the National Tax Code, the Simples Nacional statute, the IBS/CBS laws and the CBS regulation) and product tax tables (NCM, IPI rates, ICMS tax-substitution codes and the IBS/CBS classification codes from the 2025 tax reform), captured daily from official government sources and versioned in Git. New tax-related complementary laws open an issue automatically. Each law is a Markdown file, one paragraph per legal provision, with superseded wording kept as strikethrough. When the government amends a law, the next capture becomes a commit and the diff shows exactly which provision changed. Product tables are deterministic CSVs that link an NCM code to its IBS/CBS classification and rate reduction.
+Brazilian tax laws (the Constitution's tax reform amendment, the National Tax Code, the Simples Nacional statute, the IBS/CBS laws and the CBS regulation), every agreement published by CONFAZ, the council of state finance secretaries (ICMS convênios, protocolos and ajustes SINIEF since 1966), and product tax tables (NCM, IPI rates, ICMS tax-substitution codes and the IBS/CBS classification codes from the 2025 tax reform), captured daily from official government sources and versioned in Git. New tax-related complementary laws open an issue automatically. Each law is a Markdown file, one paragraph per legal provision, with superseded wording kept as strikethrough. When the government amends a law, the next capture becomes a commit and the diff shows exactly which provision changed. Product tables are deterministic CSVs that link an NCM code to its IBS/CBS classification and rate reduction.
 
 ## Licença
 
