@@ -1,0 +1,81 @@
+# PROTOCOLO ICMS 94/13
+
+Fonte: <https://www.confaz.fazenda.gov.br/legislacao/protocolos/2013/protocolo-icms-94-13>
+
+PROTOCOLO ICMS 94, DE 30 DE SETEMBRO DE 2013
+
+• Publicado no DOU de 1.10.13
+
+Altera o Protocolo ICMS 130/10, que dispõe sobre a substituição tributária nas operações com cosméticos, perfumaria, artigos de higiene pessoal e de toucador.
+
+Os Estados de Pernambuco e de São Paulo, neste ato representados pelos Secretários de Fazenda, Finanças ou Tributação e Gerente de Receita, considerando o disposto nos arts. 102 e 199 do Código Tributário Nacional, Lei no 5.172, de 25 de outubro de 1966, e no art. 9o da Lei Complementar no 87, de 13 de setembro de 1996, resolvem celebrar o seguinte:
+
+P R O T O C O L O
+
+Cláusula primeira O Anexo Único do Protocolo ICMS 130/10, de 16 de agosto de 2010, passa a vigorar com a seguinte redação:
+
+ANEXO ÚNICO
+
+| ITEM | DESCRIÇÃO | NCM/SH | MVA-Original |
+| --- | --- | --- | --- |
+| 1 | Henna (embalagens de conteúdo igual ou inferior a 200g) | 1211.90.90 | 80,05 |
+| 2 | Vaselina | 2712.10.00 | 51,65 |
+| 3 | Amoníaco em solução aquosa (amônia) | 2814.20.00 | 53,60 |
+| 4 | Peróxido de hidrogênio (água oxigenada), mesmo solidificado com uréia, em embalagens de conteúdo igual ou inferior a 500ml | 2847.00.00 | 51,24 |
+| 5 | Acetona (embalagens de conteúdo igual ou inferior a 500 ml) | 2914.11.00 | 60,24 |
+| 6 | Lubrificação íntima | 3006.70.00 | 63,44 |
+| 7 | Óleos essenciais (desterpenados ou não), incluídos os chamados "concretos" ou "absolutos"; resinóides; oleorresinas de extração; soluções concentradas de óleos essenciais em gorduras, em óleos fixos, em ceras ou em matérias análogas, obtidas por tratamento de flores através de substâncias gordas ou por maceração; subprodutos terpênicos residuais da desterpenação dos óleos essenciais; águas destiladas aromáticas e soluções aquosas de óleos essenciais, em embalagens de conteúdo igual ou inferior a 500 ml | 3301 | 57,15 |
+| 8 | Perfumes (extratos) | 3303.00.10 | 52,37 |
+| 9 | Águas-de-colônia | 3303.00.20 | 57,15 |
+| 10 | Produtos de maquilagem para os lábios | 3304.10.00 | 65,52 |
+| 11 | Sombra, delineador, lápis para sobrancelhas e rímel | 3304.20.10 | 65,52 |
+| 12 | Outros produtos de maquilagem para os olhos | 3304.20.90 | 65,52 |
+| 13 | Preparações para manicuros e pedicuros | 3304.30.00 | 65,52 |
+| 14 | Pós, incluídos os compactos, para maquilagem | 3304.91.00 | 65,52 |
+| 15 | Cremes de beleza, cremes nutritivos e loções tônicas | 3304.99.10 | 59,60 |
+| 16 | Outros produtos de beleza ou de maquilagem preparados e preparações para conservação ou cuidados da pele | 3304.99.90 | 32,24 |
+| 17 | Xampus para o cabelo | 3305.10.00 | 37,93 |
+| 18 | Preparações para ondulação ou alisamento, permanentes, dos cabelos | 3305.20.00 | 49,36 |
+| 19 | Laquês para o cabelo | 3305.30.00 | 52,77 |
+| 20 | Outras preparações capilares | 3305.90.00 | 53,93 |
+| 21 | Tintura para o cabelo | 3305.90.00 | 34,55 |
+| 22 | Dentifrícios | 3306.10.00 | 35,27 |
+| 23 | Fios utilizados para limpar os espaços interdentais (fio dental) | 3306.20.00 | 61,93 |
+| 24 | Outras preparações para higiene bucal ou dentária | 3306.90.00 | 44,93 |
+| 25 | Preparações para barbear (antes, durante ou após) | 3307.10.00 | 67,18 |
+| 26 | Desodorantes corporais e antiperspirantes, líquidos | 3307.20.10 | 50,88 |
+| 27 | Outros desodorantes corporais e antiperspirantes | 3307.20.90 | 52,15 |
+| 28 | Sais perfumados e outras preparações para banhos | 3307.30.00 | 52,15 |
+| 29 | Outros produtos de perfumaria ou de toucador preparados | 3307.90.00 | 52,15 |
+| 30 | Soluções para lentes de contato ou para olhos artificiais | 3307.90.00 | 40,77 |
+| 31 | Sabões de toucador em barras, pedaços ou figuras moldados | 3401.11.90 | 24,80 |
+| 32 | Outros sabões, produtos e preparações, em barras, pedaços ou figuras moldados, inclusive lenços umedecidos | 3401.19.00 | 56,55 |
+| 33 | Sabões de toucador sob outras formas | 3401.20.10 | 45,61 |
+| 34 | Produtos e preparações orgânicos tensoativos para lavagem da pele, na forma de líquido ou de creme, acondicionados para venda a retalho, mesmo contendo sabão | 3401.30.00 | 45,61 |
+| 35 | Bolsa para gelo ou para água quente | 4014.90.10 | 66,79 |
+| 36 | Chupetas e bicos para mamadeiras e chupetas | 4014.90.90 | 73,69 |
+| 37 | Malas e maletas de toucador | 4202.1 | 58,04 |
+| 38 | Papel higiênico - folha simples | 4818.10.00 | 53,01 |
+| 39 | Papel higiênico - folha dupla e tripla | 4818.10.00 | 50,54 |
+| 40 | Lenços (incluídos os de maquilagem) e toalhas de mão | 4818.20.00 | 81,71 |
+| 41 | Papel toalha de uso institucional do tipo comercializado em rolos igual ou superior a 80 metros e do tipo comercializado em folhas intercaladas | 4818.20.00 | 53,27 |
+| 42 | Toalhas e guardanapos de mesa | 4818.30.00 | 71,55 |
+| 43 | Toalhas de cozinha | 4818.90.90 | 63,86 |
+| 44 | Fraldas | 9619.00.00 | 42,65 |
+| 45 | Tampões higiênicos | 9619.00.00 | 59,92 |
+| 46 | Absorventes higiênicos externos | 9619.00.00 | 65,37 |
+| 47 | Hastes flexíveis (uso não medicinal) | 5601.21.90 | 51,49 |
+| 48 | Sutiã descartável, assemelhados e papel para depilação | 5603.92.90 | 53,60 |
+| 49 | Pinças para sobrancelhas | 8203.20.90 | 59,68 |
+| 50 | Espátulas (artigos de cutelaria) | 8214.10.00 | 59,68 |
+| 51 | Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluídas as limas para unhas) | 8214.20.00 | 59,68 |
+| 52 | Termômetros, inclusive o digital | 9025.11.10 9025.19.90 | 59,20 |
+| 53 | Escovas e pincéis de barba, escovas para cabelos, para cílios ou para unhas e outras escovas de toucador de pessoas, incluídas as que sejam partes de aparelhos, exceto escovas de dentes | 9603.2 | 58,04 |
+| 54 | Escovas de dentes, incluídas as escovas para dentaduras | 9603.21.00 | 61,26 |
+| 55 | Pincéis para aplicação de produtos cosméticos | 9603.30.00 | 58,04 |
+| 56 | Sortidos de viagem, para toucador de pessoas para costura ou para limpeza de calçado ou de roupas | 9605.00.00 | 58,04 |
+| 57 | Pentes, travessas para cabelo e artigos semelhantes; grampos (alfinetes) para cabelo; pinças (pinceguiches), onduladores, bobes (rolos) e artefatos semelhantes para penteados, e suas partes, exceto os da posição 8516 e suas partes | 9615 | 58,04 |
+| 58 | Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador | 9616.20.00 | 58,04 |
+| 59 | Mamadeiras | 3923.30.00 3924.90.00 3924.10.00 4014.90.90 7010.20.00 | 73,69 |
+
+Cláusula segunda Este protocolo entra em vigor na data da sua publicação no Diário Oficial da União, produzindo efeitos a partir do primeiro dia do segundo mês subsequente ao da publicação.

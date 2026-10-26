@@ -1,0 +1,19 @@
+# PROTOCOLO ICMS 36/18
+
+Fonte: <https://www.confaz.fazenda.gov.br/legislacao/protocolos/2018/protocolo-icms-ndeg-36-18>
+
+PROTOCOLO ICMS 36/18, DE 03 DE JULHO DE 2018
+
+Publicado no DOU de 04.07.2018, pelo Despacho 86/18.
+
+Altera o Protocolo ICMS 11/91, que dispõe sobre a substituição tributária nas operações com cerveja, refrigerantes, água mineral ou potável e gelo.
+
+Os Estados de Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins e o Distrito Federal, neste ato representados por seus Secretários de Fazenda, Finanças ou Tributação, tendo em vista o disposto no art. 9º da Lei Complementar nº 87, de 13 de setembro de 1996, conjugado com as disposições do art. 199 do Código Tributário Nacional (Lei nº 5.172, de 25 de outubro de 1966), resolvem celebrar o seguinte:
+
+P R O T O C O L O
+
+Cláusula primeira Fica alterado o § 4º da cláusula quarta do Protocolo ICMS 11/91, de 21 de maio de 1991, que passa a vigorar com a seguinte redação:
+
+“4º Nas operações destinadas aos Estados do Acre, Amazonas, Bahia, Minas Gerais Paraná, Pernambuco, Rio Grande do Sul, Santa Catarina e São Paulo, a MVA-ST a ser aplicada é a prevista na sua legislação interna para os produtos mencionados neste protocolo.”.
+
+Cláusula segunda Este protocolo entra em vigor na data de sua publicação no Diário Oficial da União, produzindo efeitos a partir do primeiro dia do segundo mês subsequente ao da sua publicação.
