@@ -103,6 +103,7 @@ Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [
 - **Tabelas dentro do texto da lei.** No HTML do Planalto, as tabelas dos anexos (como as alíquotas do Simples) vêm com uma célula por parágrafo, e é assim que ficam no Markdown: legíveis e comparáveis, mas não em formato de tabela.
 - **Descoberta só de leis complementares.** O Diário Oficial e o LexML respondem a acesso automatizado com bloqueio ou verificação anti-robô, e este repositório não tenta contornar isso. Leis ordinárias, decretos e instruções normativas novas ainda entram à mão, pelo `normas.json`.
 - **Só normas do Planalto.** O conversor entende o HTML do Planalto. Resoluções do CGSN (no site de normas da Receita, que só funciona com JavaScript) e regulamentos estaduais como o RICMS/PR têm outro formato e ainda não entram.
+- **CEST não atualiza sozinho.** O site do CONFAZ não aceita conexão dos servidores do GitHub Actions (tempo de conexão esgotado), embora responda normalmente de dentro do Brasil. A tabela do CEST é atualizada quando alguém roda `npm run capturar` a partir do Brasil; na captura diária, a falha aparece no resumo da execução e as outras fontes seguem normalmente.
 - **Notas da TIPI e do CEST ficam de fora.** As notas de seção e de capítulo da TIPI e as notas de revogação do CEST ficam de fora; entram só as linhas de produto.
 
 ## Próximos passos
