@@ -1,0 +1,6 @@
+{
+  "regions": ["gru1"],
+  "functions": {
+    "api/buscar.js": { "maxDuration": 60 }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "legislacao-tributaria-proxy",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  }
+}
