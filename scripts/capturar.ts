@@ -2,6 +2,7 @@
  * Captura tudo das fontes oficiais e grava só o que mudou.
  *
  *   npm run capturar
+ *   npm run capturar -- lc-116-2003 lei-8212-1991   só estas normas, sem tabelas
  *
  * Roda todo dia no GitHub Actions. Quando algo muda, o workflow faz o
  * commit com o resumo que este script escreve em `.cache/resumo.txt`; quando
@@ -289,9 +290,13 @@ async function main() {
     ["confaz", capturarConfaz],
     ["quadro-lcp", descobrirLeisComplementares],
   ];
-  // `npm run capturar -- confaz cest` roda só essas fontes.
-  const escolhidas = process.argv.slice(2);
-  const passos = escolhidas.length ? todos.filter(([nome]) => escolhidas.includes(nome)) : todos;
+  // Com nomes na linha de comando (`npm run capturar -- lc-116-2003 confaz`),
+  // só esses passos: é como uma norma nova entra no catálogo, ou uma fonte é
+  // recapturada, sem baixar todo o resto de novo.
+  const pedidas = process.argv.slice(2);
+  const desconhecidas = pedidas.filter((nome) => !todos.some(([n]) => n === nome));
+  if (desconhecidas.length) throw new Error(`Passo desconhecido (nem norma do normas.json, nem fonte): ${desconhecidas.join(", ")}`);
+  const passos = pedidas.length ? todos.filter(([nome]) => pedidas.includes(nome)) : todos;
   // Uma fonte por vez: são sites públicos, e ninguém precisa da captura em segundos.
   for (const [nome, passo] of passos) await tentar(nome, passo);
 
