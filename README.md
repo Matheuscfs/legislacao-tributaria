@@ -19,6 +19,10 @@ Tudo aqui é público: texto de lei não tem direito autoral no Brasil (Lei 9.61
 | [LC 214/2025](normas/federal/lc-214-2025/texto.md) | 601 | IBS, CBS e Imposto Seletivo, com os anexos de redução |
 | [LC 227/2026](normas/federal/lc-227-2026/texto.md) | 210 | Comitê Gestor do IBS, processo administrativo e distribuição do IBS |
 | [Decreto 12.955/2026](normas/federal/decreto-12955-2026/texto.md) | 621 | Regulamento da CBS |
+| [LC 116/2003](normas/federal/lc-116-2003/texto.md) | 13 | ISS: lista de serviços, local da incidência, alíquota mínima de 2% e retenção |
+| [Lei 10.637/2002](normas/federal/lei-10637-2002/texto.md) | 76 | PIS/Pasep não cumulativo |
+| [Lei 10.833/2003](normas/federal/lei-10833-2003/texto.md) | 140 | Cofins não cumulativa e retenção de PIS, Cofins e CSLL na fonte |
+| [Lei 8.212/1991](normas/federal/lei-8212-1991/texto.md) | 118 | Custeio da Seguridade Social, inclusive a retenção de INSS (art. 31) |
 
 **Tabelas de produto:**
 
@@ -95,7 +99,7 @@ npm run capturar   # baixa tudo das fontes e grava só o que mudou
 npm test           # 32 testes, sem acesso à internet
 ```
 
-Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [`normas.json`](normas.json) com a URL do Planalto.
+Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [`normas.json`](normas.json) com a URL do Planalto e capture só ela, sem baixar as tabelas de novo: `npm run capturar -- lc-116-2003`.
 
 ## Limitações
 
