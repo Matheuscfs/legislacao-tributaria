@@ -53,7 +53,12 @@ export async function baixar(url: string, tentativas = 3): Promise<Baixado> {
       const bytes = new Uint8Array(await resp.arrayBuffer());
       return { texto: decodificar(resp.headers.get("content-type"), bytes), bytes, sha256: sha256(bytes) };
     } catch (e) {
-      if (i >= tentativas) throw e;
+      if (i >= tentativas) {
+        // "fetch failed" sozinho não diz nada; a causa (timeout, conexão
+        // recusada, certificado) é o que separa site fora do ar de bloqueio.
+        const causa = e instanceof Error && e.cause instanceof Error ? ` (${(e.cause as { code?: string }).code ?? ""} ${e.cause.message})` : "";
+        throw new Error(`${e instanceof Error ? e.message : String(e)}${causa}`);
+      }
       // Fonte pública fora do ar por alguns segundos é comum; insistir sem pausa não ajuda.
       await new Promise((r) => setTimeout(r, 5_000 * i));
     }
