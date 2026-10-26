@@ -1,0 +1,15 @@
+{
+  "fontes": {
+    "anexoB": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx",
+    "anexoViii": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexo_viii-tabela-correlacao-v01-02-00-20261026.xlsx"
+  },
+  "codigosDeTributacao": 338,
+  "itensLc116": 201,
+  "nbs": 1210,
+  "correlacao": {
+    "linhas": 1419,
+    "itensLc116": 200
+  },
+  "aviso": "O Anexo VIII é, nas palavras do portal, um trabalho inicial, ainda em desenvolvimento, sem regra de negócio baseada nele.",
+  "capturadoEm": "2026-10-26T19:55:02Z"
+}
