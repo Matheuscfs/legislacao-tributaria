@@ -2,7 +2,7 @@
  * Captura tudo das fontes oficiais e grava só o que mudou.
  *
  *   npm run capturar
- *   npm run capturar -- lc-116-2003 lei-8212-1991   só estas normas, sem tabelas
+ *   npm run capturar -- lc-116-2003 nfse   só estas fontes (id de norma ou de tabela)
  *
  * Roda todo dia no GitHub Actions. Quando algo muda, o workflow faz o
  * commit com o resumo que este script escreve em `.cache/resumo.txt`; quando
@@ -24,6 +24,7 @@ import { baixar, sha256 } from "../src/fonte.ts";
 import { gravarSeMudou, json, lerSeExiste } from "../src/gravar.ts";
 import { ibsCbsParaArquivos } from "../src/ibs-cbs.ts";
 import { ncmParaCsv } from "../src/ncm.ts";
+import { acharPlanilha, anexoBParaCsv, anexoViiiParaCsv } from "../src/nfse.ts";
 import { planaltoParaMarkdown } from "../src/planalto.ts";
 import { tipiParaCsv } from "../src/tipi.ts";
 
@@ -45,6 +46,9 @@ const FONTES = {
   tipi: "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.xlsx",
   cest: "https://www.confaz.fazenda.gov.br/legislacao/convenios/2018/CV142_18",
   quadroLcp: "https://www.planalto.gov.br/ccivil_03/leis/lcp/quadro_lcp.htm",
+  // Páginas, não arquivos: o nome da planilha muda a cada versão.
+  nfseDocumentacao: "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual",
+  nfseRtc: "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc",
 };
 
 const agora = () => new Date().toISOString().slice(0, 19) + "Z";
@@ -134,6 +138,36 @@ async function capturarCest() {
   resumo.push(antes ? `CEST: ${descrever(diferencaDeTabela(antes, t.cest, 2), "linha")}` : `CEST: primeira captura (${t.totais.codigos} códigos)`);
 }
 
+async function capturarNfse() {
+  const urlAnexoB = acharPlanilha((await baixar(FONTES.nfseDocumentacao)).texto, FONTES.nfseDocumentacao, /anexo_b-.*\.xlsx$/i);
+  const urlAnexoViii = acharPlanilha((await baixar(FONTES.nfseRtc)).texto, FONTES.nfseRtc, /anexo_?viii.*\.xlsx$/i);
+  const b = await anexoBParaCsv((await baixar(urlAnexoB)).bytes);
+  const c = await anexoViiiParaCsv((await baixar(urlAnexoViii)).bytes);
+  const pasta = join("tabelas", "nfse");
+  const antes = lerSeExiste(join(pasta, "lista-servico-nacional.csv"));
+  const mudou = [
+    gravarSeMudou(join(pasta, "lista-servico-nacional.csv"), b.listaServico),
+    gravarSeMudou(join(pasta, "nbs.csv"), b.nbs),
+    gravarSeMudou(join(pasta, "correlacao-item-nbs.csv"), c.csv),
+  ].some(Boolean);
+  if (!mudou) return;
+  gravarSeMudou(
+    join(pasta, "metadados.json"),
+    json({
+      fontes: { anexoB: urlAnexoB, anexoViii: urlAnexoViii },
+      ...b.totais,
+      correlacao: c.totais,
+      aviso: "O Anexo VIII é, nas palavras do portal, um trabalho inicial, ainda em desenvolvimento, sem regra de negócio baseada nele.",
+      capturadoEm: agora(),
+    })
+  );
+  resumo.push(
+    antes
+      ? `NFS-e: ${descrever(diferencaDeTabela(antes, b.listaServico), "código de tributação")}`
+      : `NFS-e: primeira captura (${b.totais.codigosDeTributacao} códigos de tributação, ${b.totais.nbs} NBS, ${c.totais.linhas} linhas de correlação)`
+  );
+}
+
 async function descobrirLeisComplementares() {
   const fonte = await baixar(FONTES.quadroLcp);
   const leis = lerQuadroLcp(fonte.texto);
@@ -167,21 +201,21 @@ async function tentar(nome: string, passo: () => Promise<void>) {
 }
 
 async function main() {
-  // Com ids na linha de comando, só essas normas: é como uma norma nova entra
-  // no catálogo sem baixar as tabelas e as outras normas de novo.
-  const pedidas = process.argv.slice(2);
-  const desconhecidas = pedidas.filter((id) => !normas.some((n) => n.id === id));
-  if (desconhecidas.length) throw new Error(`Norma fora do normas.json: ${desconhecidas.join(", ")}`);
-  const passos: [string, () => Promise<void>][] = pedidas.length
-    ? normas.filter((n) => pedidas.includes(n.id)).map((n) => [n.id, () => capturarNorma(n)])
-    : [
-        ...normas.map((n): [string, () => Promise<void>] => [n.id, () => capturarNorma(n)]),
-        ["ncm", capturarNcm],
-        ["ibs-cbs", capturarIbsCbs],
-        ["tipi", capturarTipi],
-        ["cest", capturarCest],
-        ["quadro-lcp", descobrirLeisComplementares],
-      ];
+  const todos: [string, () => Promise<void>][] = [
+    ...normas.map((n): [string, () => Promise<void>] => [n.id, () => capturarNorma(n)]),
+    ["ncm", capturarNcm],
+    ["ibs-cbs", capturarIbsCbs],
+    ["tipi", capturarTipi],
+    ["cest", capturarCest],
+    ["nfse", capturarNfse],
+    ["quadro-lcp", descobrirLeisComplementares],
+  ];
+  // Com nomes na linha de comando (id de norma ou de tabela), só esses: é
+  // como uma fonte nova entra sem baixar todas as outras de novo.
+  const pedidos = process.argv.slice(2);
+  const desconhecidos = pedidos.filter((p) => !todos.some(([nome]) => nome === p));
+  if (desconhecidos.length) throw new Error(`Fonte desconhecida: ${desconhecidos.join(", ")}`);
+  const passos = pedidos.length ? todos.filter(([nome]) => pedidos.includes(nome)) : todos;
   // Uma fonte por vez: são sites públicos, e ninguém precisa da captura em segundos.
   for (const [nome, passo] of passos) await tentar(nome, passo);
 

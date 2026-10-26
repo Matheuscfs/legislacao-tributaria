@@ -36,6 +36,25 @@ Tudo aqui é público: texto de lei não tem direito autoral no Brasil (Lei 9.61
 | [`tabelas/ibs-cbs/classificacao-por-ncm-nbs.csv`](tabelas/ibs-cbs/classificacao-por-ncm-nbs.csv) | Qual cClassTrib vale para cada NCM ou NBS (4.728 vínculos), com o item do anexo, condição e exceção | SVRS (Conformidade Fácil) |
 | [`tabelas/ibs-cbs/classificacao-tributaria.json`](tabelas/ibs-cbs/classificacao-tributaria.json) | A tabela completa, com todos os campos do portal | SVRS (Conformidade Fácil) |
 
+**NFS-e nacional** (Sistema Nacional NFS-e, [gov.br/nfse](https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica)):
+
+| Arquivo | O que é | Fonte |
+|---|---|---|
+| [`tabelas/nfse/lista-servico-nacional.csv`](tabelas/nfse/lista-servico-nacional.csv) | Os 338 códigos de tributação nacional (cTribNac, 6 dígitos: item, subitem e desdobro da lista da LC 116), com o item e a descrição do grupo | Anexo B |
+| [`tabelas/nfse/nbs.csv`](tabelas/nfse/nbs.csv) | NBS 2.0: os 1.210 códigos da Nomenclatura Brasileira de Serviços | Anexo B |
+| [`tabelas/nfse/correlacao-item-nbs.csv`](tabelas/nfse/correlacao-item-nbs.csv) | Item da LC 116 → NBS → indicador de operação (cIndOp) → cClassTrib do IBS/CBS, com as células mescladas da planilha desfeitas (1.419 linhas) | Anexo VIII |
+
+Um escritório de contabilidade, por exemplo, emite com o código 171901; o Anexo VIII liga o item 17.19 à NBS 1.1302.21.00 e ao cClassTrib 200052, o das profissões intelectuais fiscalizadas por conselho — redução de 30% no IBS e na CBS, segundo a [`classificacao-tributaria.csv`](tabelas/ibs-cbs/classificacao-tributaria.csv):
+
+```
+lista-servico-nacional.csv   171901  17.19  "Contabilidade, inclusive serviços técnicos e auxiliares."
+correlacao-item-nbs.csv      17.19   NBS 1.1302.21.00  cIndOp 100301  cClassTrib 200052
+nbs.csv                      1.1302.21.00  "Serviços de contabilidade"
+classificacao-tributaria.csv 200052  CST 200  redução IBS 30%  redução CBS 30%
+```
+
+O Anexo VIII é, nas palavras do próprio portal, "um trabalho inicial, ainda em desenvolvimento", sem regra de negócio baseada nele: serve para orientar a escolha, não para validar a nota. Não existe tabela oficial de CNAE para código de serviço — o CNAE é a atividade do CNPJ, e o código é o do serviço de cada nota.
+
 **Novidades:** [`novidades/leis-complementares.csv`](novidades/leis-complementares.csv) lista todas as leis complementares federais, com a ementa e duas marcas: se a ementa é tributária e se a lei já está no catálogo.
 
 Cada pasta tem um `metadados.json` com a fonte, os totais e a data da última captura que mudou alguma coisa.
@@ -96,7 +115,7 @@ Ou clone e rode a captura você mesmo:
 ```bash
 npm install
 npm run capturar   # baixa tudo das fontes e grava só o que mudou
-npm test           # 32 testes, sem acesso à internet
+npm test           # 39 testes, sem acesso à internet
 ```
 
 Requer Node 22 ou mais novo. Para acrescentar uma norma, inclua uma entrada em [`normas.json`](normas.json) com a URL do Planalto e capture só ela, sem baixar as tabelas de novo: `npm run capturar -- lc-116-2003`.
