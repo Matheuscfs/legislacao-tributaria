@@ -2,6 +2,7 @@
  * Captura tudo das fontes oficiais e grava só o que mudou.
  *
  *   npm run capturar
+ *   npm run capturar -- lc-116-2003 lei-8212-1991   só estas normas, sem tabelas
  *
  * Roda todo dia no GitHub Actions. Quando algo muda, o workflow faz o
  * commit com o resumo que este script escreve em `.cache/resumo.txt`; quando
@@ -166,14 +167,21 @@ async function tentar(nome: string, passo: () => Promise<void>) {
 }
 
 async function main() {
-  const passos: [string, () => Promise<void>][] = [
-    ...normas.map((n): [string, () => Promise<void>] => [n.id, () => capturarNorma(n)]),
-    ["ncm", capturarNcm],
-    ["ibs-cbs", capturarIbsCbs],
-    ["tipi", capturarTipi],
-    ["cest", capturarCest],
-    ["quadro-lcp", descobrirLeisComplementares],
-  ];
+  // Com ids na linha de comando, só essas normas: é como uma norma nova entra
+  // no catálogo sem baixar as tabelas e as outras normas de novo.
+  const pedidas = process.argv.slice(2);
+  const desconhecidas = pedidas.filter((id) => !normas.some((n) => n.id === id));
+  if (desconhecidas.length) throw new Error(`Norma fora do normas.json: ${desconhecidas.join(", ")}`);
+  const passos: [string, () => Promise<void>][] = pedidas.length
+    ? normas.filter((n) => pedidas.includes(n.id)).map((n) => [n.id, () => capturarNorma(n)])
+    : [
+        ...normas.map((n): [string, () => Promise<void>] => [n.id, () => capturarNorma(n)]),
+        ["ncm", capturarNcm],
+        ["ibs-cbs", capturarIbsCbs],
+        ["tipi", capturarTipi],
+        ["cest", capturarCest],
+        ["quadro-lcp", descobrirLeisComplementares],
+      ];
   // Uma fonte por vez: são sites públicos, e ninguém precisa da captura em segundos.
   for (const [nome, passo] of passos) await tentar(nome, passo);
 
