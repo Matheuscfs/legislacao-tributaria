@@ -1,0 +1,28 @@
+{
+  "name": "legislacao-tributaria",
+  "version": "0.1.0",
+  "description": "Leis tributárias e tabelas de tributação de produtos (NCM, IBS/CBS) capturadas das fontes oficiais e versionadas no Git",
+  "scripts": {
+    "capturar": "tsx scripts/capturar.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "domhandler": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
