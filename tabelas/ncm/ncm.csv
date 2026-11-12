@@ -873,7 +873,7 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 0712.34.00,-- Shitake (<i>Lentinus edodes</i>),2022-04-01,,Res Gecex 272/2021
 0712.39.00,-- Outros,2022-04-01,,Res Gecex 272/2021
 0712.90,- Outros produtos hortícolas; misturas de produtos hortícolas,2022-04-01,,Res Gecex 272/2021
-0712.90.20,Alho,2025-01-01,,Res Camex 641/2024
+0712.90.20,Alho,2025-01-01,,Res Gecex 641/2024
 0712.90.90,Outros,2022-04-01,,Res Gecex 272/2021
 07.13,"Legumes de vagem, secos, em grão, mesmo pelados ou partidos.",2022-04-01,,Res Gecex 272/2021
 0713.10,- Ervilhas (<i>Pisum sativum</i>),2022-04-01,,Res Gecex 272/2021
@@ -1941,7 +1941,7 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 2309.90.40,Preparações que contenham diclazuril,2022-04-01,,Res Gecex 272/2021
 2309.90.50,"Preparações com um teor de cloridrato de ractopamina igual ou superior a 2 %, em peso, com suporte de farelo de soja",2022-04-01,,Res Gecex 272/2021
 2309.90.60,"Preparações que contenham xilanase e betagluconase, com suporte de farinha de trigo",2022-04-01,,Res Gecex 272/2021
-2309.90.70,"Preparações com um teor de vitamina B<sub>12</sub> igual ou superior a 0,1 %, mas não superior a 1 %, em peso, com suporte à base de carbonato de cálcio",2025-10-01,,Res Camex 771/2025
+2309.90.70,"Preparações com um teor de vitamina B<sub>12</sub> igual ou superior a 0,1 %, mas não superior a 1 %, em peso, com suporte à base de carbonato de cálcio",2025-10-01,,Res Gecex 771/2025
 2309.90.90,Outras,2022-04-01,,Res Gecex 272/2021
 24,"Tabaco e seus sucedâneos manufaturados; produtos, mesmo com nicotina, destinados à inalação sem combustão; outros produtos que contenham nicotina destinados à absorção da nicotina pelo corpo humano.",2022-04-01,,Res Gecex 272/2021
 24.01,Tabaco não manufaturado; desperdícios de tabaco.,2022-04-01,,Res Gecex 272/2021
@@ -5761,8 +5761,8 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 3206.50.29,Outros,2022-04-01,,Res Gecex 272/2021
 32.07,"Pigmentos, opacificantes e cores preparados, composições vitrificáveis, engobos, polimentos (esmaltes metálicos*) líquidos e preparações semelhantes, do tipo utilizado nas indústrias da cerâmica, do esmalte e do vidro; fritas de vidro e outros vidros, em pó, em grânulos, em lamelas ou em flocos.",2022-04-01,,Res Gecex 272/2021
 3207.10,"- Pigmentos, opacificantes e cores preparados e preparações semelhantes",2022-04-01,,Res Gecex 272/2021
-3207.10.20,"Suspensão de pigmentos em solventes orgânicos, do tipo utilizado em impressoras de jato de tinta para decoração de superfícies cerâmicas por cozimento",2024-10-01,,Res Camex 607/2024
-3207.10.30,"Outros, à base de zircônio ou de seus sais",2024-10-01,,Res Camex 607/2024
+3207.10.20,"Suspensão de pigmentos em solventes orgânicos, do tipo utilizado em impressoras de jato de tinta para decoração de superfícies cerâmicas por cozimento",2024-10-01,,Res Gecex 607/2024
+3207.10.30,"Outros, à base de zircônio ou de seus sais",2024-10-01,,Res Gecex 607/2024
 3207.10.90,Outros,2022-04-01,,Res Gecex 272/2021
 3207.20,"- Composições vitrificáveis, engobos e preparações semelhantes",2022-04-01,,Res Gecex 272/2021
 3207.20.10,Engobos,2022-04-01,,Res Gecex 272/2021
@@ -6654,19 +6654,19 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 3906.90.31,Poli(ácido acrílico) e seus sais,2022-04-01,,Res Gecex 272/2021
 3906.90.32,"Sal sódico do poli(ácido acrilamídico), solúvel em água",2022-04-01,,Res Gecex 272/2021
 3906.90.39,Outros,2022-04-01,,Res Gecex 272/2021
-3906.90.5,"Nas formas previstas na Nota 6 b) deste Capítulo, exceto copolímeros",2024-10-01,,Res Camex 607/2024
-3906.90.51,Poli(ácido acrílico) e seus sais,2024-10-01,,Res Camex 607/2024
-3906.90.52,"Sal sódico do poli(ácido acrilamídico), solúvel em água",2024-10-01,,Res Camex 607/2024
-3906.90.53,"Carboxipolimetileno, em pó",2024-10-01,,Res Camex 607/2024
-3906.90.54,"Poli(acrilato de sódio), com capacidade de absorção de uma solução aquosa de cloreto de sódio 0,9 %, em peso, igual ou superior a vinte vezes seu próprio peso",2024-10-01,,Res Camex 607/2024
-3906.90.59,Outros,2024-10-01,,Res Camex 607/2024
-3906.90.6,Copolímeros nas formas previstas na Nota 6 b) deste Capítulo,2024-10-01,,Res Camex 607/2024
-3906.90.61,"Copolímero de acrilato de potássio e acrilamida, com capacidade de absorção de água destilada de até quatrocentas vezes seu próprio peso",2024-10-01,,Res Camex 607/2024
-3906.90.62,"Copolímeros de acrilato de metila-etileno com um conteúdo de acrilato de metila igual ou superior a 50 %, em peso",2024-10-01,,Res Camex 607/2024
-3906.90.63,"Copolímero de acrilato de etila, acrilato de n-butila e acrilato de 2-metoxietila",2024-10-01,,Res Camex 607/2024
-3906.90.64,"Copolímero de acrilato de potássio e ácido acrílico, com capacidade de absorção de água destilada de até quatrocentas vezes seu próprio peso",2024-10-01,,Res Camex 607/2024
-3906.90.65,Copolímero de acrilamida e acrilato de sódio,2024-10-01,,Res Camex 607/2024
-3906.90.69,Outros,2024-10-01,,Res Camex 607/2024
+3906.90.5,"Nas formas previstas na Nota 6 b) deste Capítulo, exceto copolímeros",2024-10-01,,Res Gecex 607/2024
+3906.90.51,Poli(ácido acrílico) e seus sais,2024-10-01,,Res Gecex 607/2024
+3906.90.52,"Sal sódico do poli(ácido acrilamídico), solúvel em água",2024-10-01,,Res Gecex 607/2024
+3906.90.53,"Carboxipolimetileno, em pó",2024-10-01,,Res Gecex 607/2024
+3906.90.54,"Poli(acrilato de sódio), com capacidade de absorção de uma solução aquosa de cloreto de sódio 0,9 %, em peso, igual ou superior a vinte vezes seu próprio peso",2024-10-01,,Res Gecex 607/2024
+3906.90.59,Outros,2024-10-01,,Res Gecex 607/2024
+3906.90.6,Copolímeros nas formas previstas na Nota 6 b) deste Capítulo,2024-10-01,,Res Gecex 607/2024
+3906.90.61,"Copolímero de acrilato de potássio e acrilamida, com capacidade de absorção de água destilada de até quatrocentas vezes seu próprio peso",2024-10-01,,Res Gecex 607/2024
+3906.90.62,"Copolímeros de acrilato de metila-etileno com um conteúdo de acrilato de metila igual ou superior a 50 %, em peso",2024-10-01,,Res Gecex 607/2024
+3906.90.63,"Copolímero de acrilato de etila, acrilato de n-butila e acrilato de 2-metoxietila",2024-10-01,,Res Gecex 607/2024
+3906.90.64,"Copolímero de acrilato de potássio e ácido acrílico, com capacidade de absorção de água destilada de até quatrocentas vezes seu próprio peso",2024-10-01,,Res Gecex 607/2024
+3906.90.65,Copolímero de acrilamida e acrilato de sódio,2024-10-01,,Res Gecex 607/2024
+3906.90.69,Outros,2024-10-01,,Res Gecex 607/2024
 39.07,"Poliacetais, outros poliéteres e resinas epóxidas, em formas primárias; policarbonatos, resinas alquídicas, poliésteres alílicos e outros poliésteres, em formas primárias.",2022-04-01,,Res Gecex 272/2021
 3907.10,- Poliacetais,2022-04-01,,Res Gecex 272/2021
 3907.10.10,"Com carga, nas formas previstas na Nota 6 a) deste Capítulo",2022-04-01,,Res Gecex 272/2021
@@ -10507,9 +10507,9 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 7314.50.00,"- Chapas e tiras, distendidas",2022-04-01,,Res Gecex 272/2021
 73.15,"Correntes, cadeias, e suas partes, de ferro fundido, ferro ou aço.",2022-04-01,,Res Gecex 272/2021
 7315.1,- Correntes de elos articulados e suas partes:,2022-04-01,,Res Gecex 272/2021
-7315.11,-- Correntes de rolos,2024-10-01,,Res Camex 607/2024
-7315.11.10,"Do tipo utilizado em bicicletas, com passo de 12,7 mm (1/2"") e largura interna igual ou superior a 1,98 mm (5/64""), mas inferior ou igual a 3,17 mm (1/8"")",2024-10-01,,Res Camex 607/2024
-7315.11.90,Outras,2024-10-01,,Res Camex 607/2024
+7315.11,-- Correntes de rolos,2024-10-01,,Res Gecex 607/2024
+7315.11.10,"Do tipo utilizado em bicicletas, com passo de 12,7 mm (1/2"") e largura interna igual ou superior a 1,98 mm (5/64""), mas inferior ou igual a 3,17 mm (1/8"")",2024-10-01,,Res Gecex 607/2024
+7315.11.90,Outras,2024-10-01,,Res Gecex 607/2024
 7315.12,-- Outras correntes,2022-04-01,,Res Gecex 272/2021
 7315.12.10,De transmissão,2022-04-01,,Res Gecex 272/2021
 7315.12.90,Outras,2022-04-01,,Res Gecex 272/2021
@@ -10838,7 +10838,7 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 7612.90.11,"Para aerossóis, com capacidade inferior ou igual a 700 cm<sup>3</sup>",2022-04-01,,Res Gecex 272/2021
 7612.90.12,"Isotérmicos, refrigerados a nitrogênio (azoto) líquido, do tipo utilizado para sêmen, sangue, tecidos biológicos e outros produtos semelhantes",2022-04-01,,Res Gecex 272/2021
 7612.90.19,Outros,2022-04-01,,Res Gecex 272/2021
-7612.90.20,"Recipientes (cápsulas) para embalagem de café e produtos semelhantes, do tipo utilizado em máquinas para preparação de bebidas",2025-10-01,,Res Camex 771/2025
+7612.90.20,"Recipientes (cápsulas) para embalagem de café e produtos semelhantes, do tipo utilizado em máquinas para preparação de bebidas",2025-10-01,,Res Gecex 771/2025
 7612.90.90,Outros,2022-04-01,,Res Gecex 272/2021
 7613.00.00,"Recipientes para gases comprimidos ou liquefeitos, de alumínio.",2022-04-01,,Res Gecex 272/2021
 76.14,"Cordas, cabos, tranças (entrançados*) e semelhantes, de alumínio, não isolados para usos elétricos.",2022-04-01,,Res Gecex 272/2021
@@ -14415,7 +14415,7 @@ codigo,descricao,inicio_vigencia,fim_vigencia,ato_inicial
 9018.90.94,Endoscópios,2022-04-01,,Res Gecex 272/2021
 9018.90.95,"Grampos e clipes, seus aplicadores e extratores",2022-04-01,,Res Gecex 272/2021
 9018.90.96,Desfibriladores externos que operem unicamente em modo automático (AED - <i>Automatic External Defibrillator</i>),2022-04-01,,Res Gecex 272/2021
-9018.90.97,Aparelhos destinados a procedimentos cirúrgicos assistidos por robótica,2025-10-01,,Res Camex 771/2025
+9018.90.97,Aparelhos destinados a procedimentos cirúrgicos assistidos por robótica,2025-10-01,,Res Gecex 771/2025
 9018.90.99,Outros,2022-04-01,,Res Gecex 272/2021
 90.19,"Aparelhos de mecanoterapia; aparelhos de massagem; aparelhos de psicotécnica; aparelhos de ozonoterapia, de oxigenoterapia, de aerossolterapia, aparelhos respiratórios de reanimação e outros aparelhos de terapia respiratória.",2022-04-01,,Res Gecex 272/2021
 9019.10.00,- Aparelhos de mecanoterapia; aparelhos de massagem; aparelhos de psicotécnica,2022-04-01,,Res Gecex 272/2021
