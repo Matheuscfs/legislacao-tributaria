@@ -1,0 +1,81 @@
+# CONVÊNIO ICMS 133/26
+
+> Prorroga benefícios fiscais previstos em convênios ICMS e regula o atendimento das condicionantes relativas ao PIS/Pasep, à Cofins e ao IPI.
+
+Fonte: <https://www.confaz.fazenda.gov.br/legislacao/convenios/2026/convenio-icms-133-26>
+
+CONVÊNIO ICMS Nº 133, DE 17 DE NOVEMBRO DE 2026
+
+Publicado no DOU de 18.11.26, pelo Despacho 54/26.
+
+Prorroga benefícios fiscais previstos em convênios ICMS e regula o atendimento das condicionantes relativas ao PIS/Pasep, à Cofins e ao IPI.
+
+O Conselho Nacional de Política Fazendária - CONFAZ, na sua 436ª Reunião Extraordinária, realizada em Brasília, DF, no dia 17 de novembro de 2026, tendo em vista o disposto na Lei Complementar nº 24, de 7 de janeiro de 1975,
+
+Considerando as disposições dos incisos II e III do art. 126 do Ato das Disposições Constitucionais Transitória - ADCT - introduzidas pela Emenda Constitucional nº 132, de 20 de dezembro de 2023, especialmente em relação ao IPI, ao PIS/PASEP e à Cofins,
+
+Considerando que o disposto neste convênio não representa ampliação nem redução de benefício fiscal em relação à situação existente em 31 de dezembro de 2026, resolve celebrar o seguinte
+
+CONVÊNIO
+
+Cláusula primeira As disposições contidas nos Convênios ICMS a seguir indicados ficam prorrogadas até 31 de dezembro de 2027:
+
+I - Convênio ICMS nº 104, de 24 de outubro de 1989, que autoriza a concessão de isenção do ICMS na importação de bens destinados a ensino pesquisa e serviços médico hospitalares;
+
+II - Convênio ICMS nº 32, de 4 de abril de 1995, que autoriza os Estados e o Distrito Federal a conceder isenção nas operações internas com veículos automotores, máquinas e equipamentos quando adquiridos pelos Corpos de Bombeiros Voluntários para utilização nas suas atividades específicas;
+
+III - Convênio ICMS nº 42, de 28 de junho de 1995, que autoriza os Estados e o Distrito Federal a conceder isenção do ICMS na entrada de bens para integrar o ativo fixo das Companhias Estaduais de Saneamento;
+
+IV - Convênio ICMS nº 123, de 12 de dezembro de 1997, que concede isenção do ICMS nas operações que destinem mercadorias ao Programa de Modernização e Consolidação da Infra-Estrutura Acadêmica das IFES e HUS;
+
+V - Convênio ICMS nº 1, de 2 de março de 1999, que concede isenção do ICMS às operações com equipamentos e insumos destinados à prestação de serviços de saúde;
+
+VI - Convênio ICMS nº 5, de 24 de março de 2000, que autoriza as unidades federadas que menciona a conceder isenção do ICMS nas importações de vacinas e insumos destinados à sua fabricação, bem como de bens e acessórios de uso exclusivo em laboratórios, realizadas pela Fundação Oswaldo Cruz e Fundação Ezequiel Dias;
+
+VII - Convênio ICMS nº 38, de 6 de julho de 2001, que concede isenção do ICMS às operações internas e interestaduais com automóveis de passageiros, para utilização como táxi;
+
+VIII - Convênio ICMS nº 140, de 19 de dezembro de 2001, que concede isenção do ICMS nas operações com medicamentos;
+
+IX - Convênio ICMS nº 31, de 15 de março de 2002, que autoriza os Estados da Bahia, Mato Grosso, Pará, Paraná, Piauí, Santa Catarina e o Distrito Federal a conceder isenção do ICMS na importação de bens destinados a ensino e pesquisa;
+
+X - Convênio ICMS nº 40, de 15 de março de 2002, que autoriza o Estado de Minas Gerais a conceder isenção do ICMS relativo ao diferencial de alíquotas e a reduzir a base de cálculo;
+
+XI - Convênio ICMS nº 87, de 28 de junho de 2002, que concede isenção do ICMS nas operações com fármacos e medicamentos destinados a órgãos da Administração Pública Direta Federal, Estadual e Municipal;
+
+XII - Convênio ICMS nº 117, de 20 de setembro de 2002, que autoriza o Estado de Goiás a conceder isenção do ICMS nas importações de soro conservante de córnea pela Fundação Banco de Olhos de Goiás;
+
+XIII - Convênio ICMS nº 28, de 1º de abril de 2005, que autoriza as unidades federadas a conceder isenção do ICMS relativo à importação de bens destinados à modernização de Zonas Portuárias do Estado;
+
+XIV - Convênio ICMS nº 51, de 30 de maio de 2005, que autoriza o Distrito Federal a conceder isenção de ICMS nas operações de importação efetuadas pelas fundações de apoio à Fundação Universidade de Brasília;
+
+XV - Convênio ICMS nº 130, de 16 de dezembro de 2005, que autoriza o Estado de São Paulo a conceder isenção nas saídas de aviões;
+
+XVI - Convênio ICMS nº 3, de 24 de março de 2006, que concede isenção do ICMS incidente nas saídas internas de bens destinados à modernização de Zonas Portuárias das unidades federadas;
+
+XVII - Convênio ICMS nº 9, de 30 de março de 2007, que autoriza os Estados a conceder isenção do ICMS nas operações internas e interestaduais e na importação de medicamentos e equipamentos destinados a pesquisas que envolvam seres humanos inclusive em programas de acesso expandido;
+
+XVIII - Convênio ICMS nº 10, de 30 de março de 2007, que autoriza os Estados e o Distrito Federal a conceder isenção de ICMS na importação de máquinas, equipamentos, partes e acessórios destinados a empresa de radiodifusão;
+
+XIX - Convênio ICMS nº 53, de 16 de maio de 2007, que isenta do ICMS as operações com ônibus, micro-ônibus, e embarcações, adquiridos pelos Estados, Distrito Federal e Municípios, no âmbito do Programa Caminho da Escola, do Ministério da Educação - MEC;
+
+XX - Convênio ICMS nº 89, de 6 de julho de 2007, que autoriza as unidades federadas que menciona a conceder isenção do ICMS incidente no fornecimento de alimentação e bebidas não alcoólicas realizados por restaurantes populares integrantes de programas específicos instituídos pela União, Estado ou Municípios;
+
+XXI - Convênio ICMS nº 130, de 27 de novembro de 2007, que dispõe sobre a isenção e redução de base de cálculo do ICMS em operação com bens ou mercadorias destinadas às atividades de pesquisa, exploração ou produção de petróleo e Gás natural;
+
+XXII - Convênio ICMS nº 5, de 4 de abril de 2008, que autoriza o Estado do Rio de Janeiro a conceder isenção do ICMS nas saídas internas de munições destinadas às Forças Armadas;
+
+XXIII - Convênio ICMS nº 73, de 3 de maio de 2010, que concede isenção do ICMS nas operações com medicamento destinado ao tratamento dos portadores de Gripe A (H1N1);
+
+XXIV - Convênio ICMS nº 38, de 30 de março de 2012, que concede isenção do ICMS nas saídas de veículos destinados a pessoas com deficiência física, visual, mental severa ou profunda, síndrome de Down ou autistas;
+
+XXV - Convênio ICMS nº 95, de 28 de setembro de 2012, que dispõe sobre a concessão de redução de base de cálculo do ICMS nas saídas de veículos militares, peças, acessórios e outras mercadorias que especifica;
+
+XXVI - Convênio ICMS nº 113, de 11 de outubro de 2013, que autoriza o Estado do Paraná a conceder isenção de ICMS nas saídas e importação de equipamentos, aparelhos e instrumentos, suas respectivas partes, peças e acessórios, destinadas ao Instituto Tecnológico SIMEPAR.
+
+Cláusula segunda Os Estados e o Distrito Federal ficam autorizados a considerar atendidas as condicionantes de desoneração ou de redução de carga relativas às contribuições para o PIS/Pasep e à Cofins e ao Imposto sobre Produtos Industrializados - IPI, previstas nos convênios ICMS relacionados na cláusula primeira, quando, em 31 de dezembro de 2026, a operação ou prestação cumpria a correspondente condicionante.
+
+Parágrafo único. O disposto no "caput" aplica-se inclusive aos casos em que, em 31 de dezembro de 2026, a condicionante era considerada atendida por força do disposto no Convênio ICMS nº 28, de 27 de março de 2026, publicado no Diário Oficial da União de 31 de março de 2026.
+
+Cláusula terceira A partir de 1° de janeiro de 2027, as operações com bens e mercadorias e as prestações, objeto dos convênios de que trata a cláusula primeira, apenas serão contempladas pelos benefícios fiscais do respectivo convênio se observarem as disposições da cláusula segunda.
+
+Cláusula quarta Este convênio entra em vigor na data da publicação de sua ratificação nacional no Diário Oficial da União.

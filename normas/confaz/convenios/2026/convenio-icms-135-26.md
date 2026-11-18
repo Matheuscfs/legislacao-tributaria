@@ -1,0 +1,47 @@
+# CONVÊNIO ICMS 135/26
+
+> Altera o Convênio ICMS nº 87, de 28 de junho de 2002, que concede isenção do ICMS nas operações com fármacos e medicamentos destinados a órgãos da Administração Pública Direta Federal, Estadual e Municipal.
+
+Fonte: <https://www.confaz.fazenda.gov.br/legislacao/convenios/2026/convenio-icms-135-26>
+
+CONVÊNIO ICMS Nº 135, DE 17 DE NOVEMBRO DE 2026
+
+Publicado no DOU de 18.11.26, pelo Despacho 54/26.
+
+Altera o Convênio ICMS nº 87, de 28 de junho de 2002, que concede isenção do ICMS nas operações com fármacos e medicamentos destinados a órgãos da Administração Pública Direta Federal, Estadual e Municipal.
+
+O Conselho Nacional de Política Fazendária – CONFAZ, na sua 436ª Reunião Extraordinária, realizada em Brasília, DF, no dia 17 de novembro de 2026, tendo em vista o disposto na Lei Complementar nº 24, de 7 de janeiro de 1975, resolve celebrar o seguinte
+
+CONVÊNIO
+
+Cláusula primeira Os itens a seguir indicados do Anexo Único do Convênio ICMS nº 87, de 28 de junho de 2002, publicado no Diário Oficial da União de 5 de julho de 2002, passam a vigorar com as seguintes redações:
+
+I – o item 31:
+
+ANEXO ÚNICO
+
+| Item | Fármacos | NCM | Medicamentos | NCM |
+| --- | --- | --- | --- | --- |
+| Fármacos | Medicamentos |  |  |  |
+| 31 | Deferiprona | 2942.00.00 | Deferiprona 500 mg - por comprimido | 3003.90.58/3004.90.49 |
+| Deferiprona 1000 mg - comprimido revestido de liberação modificada |  |  |  |  |
+
+”;
+
+II – o item 273:
+
+ANEXO ÚNICO
+
+| Item | Fármacos | NCM | Medicamentos | NCM |
+| --- | --- | --- | --- | --- |
+| Fármacos | Medicamentos |  |  |  |
+| 273 | Omalizumabe | 3002.13.00 | Omalizumabe -75 mg seringa preenchida | 3002.15.90 |
+| Omalizumabe -150 mg seringa preenchida |  |  |  |  |
+
+”.
+
+Cláusula segunda Este convênio entra em vigor na data da publicação de sua ratificação nacional, produzindo efeitos a partir de:
+
+I - 1º de janeiro de 2027, em relação ao inciso I; e
+
+II - 1º de janeiro de 2028, em relação ao inciso II.
