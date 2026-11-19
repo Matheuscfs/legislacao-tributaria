@@ -144,7 +144,7 @@ III - (Revogado pela Lei nº 9.876, de 1999).
 
 IV - (Revogado pela Lei nº 9.876, de 1999).
 
-V - como contribuinte individual: (Redação dada pela Lei nº 9.876, de 1999).
+V - como contribuinte individual: (Redação dada pela Lei nº 9.876, de 1999). (Vide ADIN 4395)
 
 a) a pessoa física, proprietária ou não, que explora atividade agropecuária, a qualquer título, em caráter permanente ou temporário, em área superior a 4 (quatro) módulos fiscais; ou, quando em área igual ou inferior a 4 (quatro) módulos fiscais ou atividade pesqueira, com auxílio de empregados ou por intermédio de prepostos; ou ainda nas hipóteses dos §§ 10 e 11 deste artigo; (Redação dada pela Lei nº 11.718, de 2008).
 
@@ -164,7 +164,7 @@ h) a pessoa física que exerce, por conta própria, atividade econômica de natu
 
 VI - como trabalhador avulso: quem presta, a diversas empresas, sem vínculo empregatício, serviços de natureza urbana ou rural definidos no regulamento;
 
-VII – como segurado especial: a pessoa física residente no imóvel rural ou em aglomerado urbano ou rural próximo a ele que, individualmente ou em regime de economia familiar, ainda que com o auxílio eventual de terceiros a título de mútua colaboração, na condição de: (Redação dada pela Lei nº 11.718, de 2008).
+VII – como segurado especial: a pessoa física residente no imóvel rural ou em aglomerado urbano ou rural próximo a ele que, individualmente ou em regime de economia familiar, ainda que com o auxílio eventual de terceiros a título de mútua colaboração, na condição de: (Redação dada pela Lei nº 11.718, de 2008). (Vide ADIN 4395)
 
 a) produtor, seja proprietário, usufrutuário, possuidor, assentado, parceiro ou meeiro outorgados, comodatário ou arrendatário rurais, que explore atividade: (Incluído pela Lei nº 11.718, de 2008).
 
@@ -470,7 +470,7 @@ Parágrafo único. Presentes os elementos da relação de emprego doméstico, o 
 
 DA CONTRIBUIÇÃO DO PRODUTOR RURAL E DO PESCADOR (Alterado pela Lei nº 8.398, de 7.1.92)
 
-Art. 25. A contribuição do empregador rural pessoa física, em substituição à contribuição de que tratam os incisos I e II do art. 22, e a do segurado especial, referidos, respectivamente, na alínea a do inciso V e no inciso VII do art. 12 desta Lei, destinada à Seguridade Social, é de: (Redação dada pela Lei nº 10.256, de 2001).
+Art. 25. A contribuição do empregador rural pessoa física, em substituição à contribuição de que tratam os incisos I e II do art. 22, e a do segurado especial, referidos, respectivamente, na alínea a do inciso V e no inciso VII do art. 12 desta Lei, destinada à Seguridade Social, é de: (Redação dada pela Lei nº 10.256, de 2001). (Vide ADIN 4395)
 
 I - 1,2% (um inteiro e dois décimos por cento) da receita bruta proveniente da comercialização da sua produção; (Redação dada pela Lei nº 13.606, de 2018) (Produção de efeito)
 
@@ -696,7 +696,7 @@ II - os segurados contribuinte individual e facultativo estão obrigados a recol
 
 III - a empresa adquirente, consumidora ou consignatária ou a cooperativa são obrigadas a recolher a contribuição de que trata o art. 25 até o dia 20 (vinte) do mês subsequente ao da operação de venda ou consignação da produção, independentemente de essas operações terem sido realizadas diretamente com o produtor ou com intermediário pessoa física, na forma estabelecida em regulamento; (Redação dada pela Lei nº 11.933, de 2009). (Produção de efeitos).
 
-IV - a empresa adquirente, consumidora ou consignatária ou a cooperativa ficam sub-rogadas nas obrigações da pessoa física de que trata a alínea "a" do inciso V do art. 12 e do segurado especial pelo cumprimento das obrigações do art. 25 desta Lei, independentemente de as operações de venda ou consignação terem sido realizadas diretamente com o produtor ou com intermediário pessoa física, exceto no caso do inciso X deste artigo, na forma estabelecida em regulamento; (Redação dada pela Lei 9.528, de 10.12.97) (Vide decisão-STF Petição nº 8.140 - DF)
+IV - a empresa adquirente, consumidora ou consignatária ou a cooperativa ficam sub-rogadas nas obrigações da pessoa física de que trata a alínea "a" do inciso V do art. 12 e do segurado especial pelo cumprimento das obrigações do art. 25 desta Lei, independentemente de as operações de venda ou consignação terem sido realizadas diretamente com o produtor ou com intermediário pessoa física, exceto no caso do inciso X deste artigo, na forma estabelecida em regulamento; (Redação dada pela Lei 9.528, de 10.12.97) (Vide decisão-STF Petição nº 8.140 - DF) (Vide ADIN 4395)
 
 V - o empregador doméstico fica obrigado a arrecadar e a recolher a contribuição do segurado empregado a seu serviço e a parcela a seu cargo, até o vigésimo dia do mês seguinte ao da competência; (Redação dada pela Lei nº 14.438, de 2022) Produção de efeitos
 
