@@ -18,6 +18,8 @@ Prorrogado, até 30.04.26, pelo Conv. ICMS 226/23.
 
 Prorrogado, até 31.12.26, pelo Conv. ICMS 21/26.
 
+Prorrogado, até 31.12.28, pelo Conv. ICMS 131/26.
+
 Autoriza a concessão de crédito presumido do ICMS correspondente ao preço pago pelos selos fiscais efetivamente utilizados nos vasilhames acondicionadores de água mineral natural, água natural ou água adicionada de sais.
 
 O Conselho Nacional de Política Fazendária - CONFAZ, na sua 335ª Reunião Extraordinária, realizada em Brasília, DF, no dia 23 de julho de 2021, tendo em vista o disposto na Lei Complementar n° 24, de 07 de janeiro de 1975, resolve celebrar o seguinte
